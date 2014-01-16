@@ -1,0 +1,88 @@
+
+body { text-align: center; 
+	font-family: Georgia, serif;
+	background: #ccc;
+}
+h1 {
+	width: 100%;
+	font-size: 4000%;
+	margin: 0;
+	color: #ddd;
+	position: absolute; z-index: 3;
+	line-height: 0.5em;
+	letter-spacing: -0.1em;
+	word-wrap: break-word;
+	text-shadow: 0 0 1em rgba(0,0,0,0.1);
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;	
+}
+.gravatar { 
+	position: absolute; z-index: 4;
+	top: 5em;
+	right: 10%;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.5);
+	background-image: url('http://www.gravatar.com/avatar/fb3eebee376e8d506503148d021a409a?s=400');
+	border-radius: 200px;
+	border: solid 1em black;
+	opacity: 0.9;
+}
+.myLinks {
+	position: absolute; z-index: 5;
+	top: 1em;
+	left: 1em;
+	
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.myLinks > li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-bottom: -0.8em;
+}
+.myLinks > li > a {
+	display: block;
+	width: 9em;
+	height: 9em;
+	border: solid 1em #333;
+	font-size: 120%;
+	line-height: 9em;
+	border-radius: 9em;
+	color: #333;
+	background-color: rgba(255,255,255,0.86);
+	text-decoration: none;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.myLinks > li > a:hover {
+	color: #568;
+	background-color: rgba(200,240,255,0.9);
+	box-shadow: inset 0 0 1em white;
+}
+@media only screen and (max-width : 50em) {		
+	.gravatar {
+		right: -5%;
+		opacity: 0.8;
+	}
+}
+@media only screen and (max-width : 40em) {
+	.gravatar {		right: -15%; opacity: 0.7; }
+	h1 {	font-size: 3500%; }
+}
+@media only screen and (max-width : 30em) {
+	.gravatar {		right: -25%; opacity: 0.6; }
+	h1 {	font-size: 3000%; }
+}
+@media only screen and (max-width : 20em) {
+	.gravatar {		right: -35%; opacity: 0.5; }
+	h1 {	font-size: 2000%; }
+}
+@media only screen and (max-width : 10em) {
+	.gravatar {		right: -45%; opacity: 0.4; }
+	h1 {	font-size: 1000%; }
+}
