@@ -18,15 +18,16 @@ h1 {
 }
 .gravatar { 
 	position: absolute; z-index: 4;
-	top: 5em;
+	top: 3em;
 	right: 10%;
 	width: 400px;
 	height: 400px;
 	margin: 0 auto;
 	background-color: rgba(0,0,0,0.5);
 	background-image: url('http://www.gravatar.com/avatar/fb3eebee376e8d506503148d021a409a?s=400');
-	border-radius: 200px;
-	border: solid 1em black;
+	border-radius: 400px;
+	font-size: 160%;
+	border: solid 0.7em black;
 	opacity: 0.9;
 }
 .myLinks {
@@ -47,12 +48,12 @@ h1 {
 }
 .myLinks > li > a {
 	display: block;
-	width: 9em;
-	height: 9em;
-	border: solid 1em #333;
-	font-size: 120%;
-	line-height: 9em;
-	border-radius: 9em;
+	width: 6em;
+	height: 6em;
+	border: solid 0.7em #333;
+	font-size: 160%;
+	line-height: 6em;
+	border-radius: 6em;
 	color: #333;
 	background-color: rgba(255,255,255,0.86);
 	text-decoration: none;
