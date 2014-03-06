@@ -1,0 +1,245 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background: #cccccc url('../images/StripeFade_BG_2.jpg') repeat-x fixed center bottom;
+	font-family: Verdana, sans-serif;
+	}
+
+H1, H2, H3, H4, H5 {
+	font-family: "Trebuchet MS", Trebuchet, Verdana, sans-serif;
+	color: #0E3666;
+	text-transform:capitalize;
+	clear: both;
+	}
+H3 { color: black; }
+
+BR { clear: both; }
+
+#system {
+	}
+
+#pagefooter {
+	padding: 2em 2em 8em 2em;
+	font-size: 80%;
+	}
+#pagefooter A {
+	color: black;
+	}
+
+.web { display: block; }
+.print { display: none; }
+
+
+H1.title {
+	color: #aaaaaa;
+	margin: 5% 0; padding: 0;
+	text-transform:uppercase;
+	}
+
+#resume {
+	display: none;
+	width: 686px;
+	padding: 2em 55px 3em 55px;
+	margin: 5% auto 5% auto;
+	border: solid 2px black;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	
+	text-align: left;
+	
+	background: #ffffff;
+	box-shadow: 4px 4px 20px #000000;
+	-webkit-box-shadow: 4px 4px 20px #000000;
+	-moz-box-shadow: 4px 4px 20px #000000;	
+	}
+
+.resume A {
+	color: #000000;
+	text-decoration: none;
+	}
+.resume A:hover {
+	color: #0E3666;
+	text-decoration: underline;
+	text-shadow: 0 0 0.5em rgba(255,255,255,0.5);
+}
+
+.header {
+	background-color: #0E3666;
+	color: white;
+	padding: 2.5em;
+	margin: -2em -55px 1em -55px;
+	border-radius: 0 0 2em 2em; -moz-border-radius:0 0 2em 2em; -webkit-border-radius: 0 0 2em 2em;
+	text-shadow: #000000 1px 1px 1px;
+	-moz-text-shadow: #000000 1px 1px 1px;
+	-webkit-text-shadow: #000000 1px 1px 1px;
+	}
+
+.header H1 {
+	color: white;
+	float: left;
+	margin: 0 1em 0 0;
+	}
+	
+.contact H2 {
+	display: none;
+	}
+	
+.contact {
+	float: right;
+	}
+	
+.contact ul {
+	text-align: left;
+}
+.contact li {
+	margin-bottom: 0.5em;
+}
+	
+.header br {
+	clear: both;
+}
+
+.header A {
+	color: white;
+	}
+	
+.header A:hover {
+	color: white;
+
+	}
+
+
+
+
+	
+/* ======= sections ======= */
+
+.section {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	}
+	
+.section ul {
+	margin: 0em 0em 0em 0em;
+	padding: 0;
+	list-style-type: none;
+	}
+	
+.section ul ul {
+	margin-top: 0.8em;
+	padding: 0 0 0 3em;
+	list-style-type: disc;
+}
+	
+.section h3 {
+	margin-left: 0em;
+	margin-bottom: 0.4em;
+}
+	
+
+
+
+.experience .description {
+	color: #717171;
+	}
+.xpBulletList > li {
+	margin-bottom: 0.25em;
+}
+
+
+.skills {
+	background-color: #DDDFE1; /* #dddddd; */ /*#8EB6E6;*/
+	background: -moz-linear-gradient(top, #DDDFE1, #dddddd);
+	background: -webkit-linear-gradient(top, #DDDFE1, #dddddd);	
+	margin: 0 -55px 0 -55px;
+	padding: 1em 55px 2em 55px;
+	}
+
+.skills LABEL {
+	display: block;
+	float: left; clear: left;
+	padding: 0 2em 0 0;
+	width: 20em;
+	}
+
+.skills UL {
+	margin-left: 2em;
+	}
+	
+.skills li {
+	font-size: 80%;
+	overflow: auto;
+	padding: 0.05em 1em;
+}
+	
+.barout {
+	display: block; height: 9px; width: 100px;
+	background-color: white;
+	float: left;
+	border: solid 1px #666666;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	}
+.barin {
+	display: block; height: 9px; width: 0px;
+	background-color: #336699; /* #999999; */
+	font-size: 8px;
+	text-align: right;
+	color: transparent;
+	border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0;
+	}
+
+.skills li:hover {
+	background-color: rgba(0,0,0,0.05);
+}
+.skills li:hover .barin {
+	border-color: #000000;
+	background-color: #4477aa;
+}
+.barin:hover {
+	color: #0E3666;
+	}
+	
+.skills LI:hover .barout {
+	box-shadow: 3px 3px 10px rgba(50,50,50,0.25);
+	}
+
+
+	
+	
+.education H3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	float: left;
+	}
+
+LI { 
+	clear: left;
+	}
+	
+LI.location {
+	padding-top: 0.3em;
+	clear: none;
+	float: left;
+	}
+	
+	
+
+.minors {
+	color: #717171;
+	}
+
+.references H3 {
+	
+	}
+.references LABEL {
+	display: none;
+	}
+	
+.references .connection {
+	color: #717171;
+	}
+	
+	
+	

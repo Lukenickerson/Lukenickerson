@@ -1,0 +1,251 @@
+
+{
+	"name" :	"Luke Nickerson",
+	"email" : 	["luke.nickerson@gmail.com"],
+	"phone" : 	["518-330-8564"],
+	"url" :		["http://lukenickerson.com"],
+	"order" :	["summary", "experience", "skills", "education", "references"],
+	"headers" : ["Objectives", "work experience", "skills", "Education", "references"],
+	"summary" :	"To obtain a challenging job that will utilize my analytical, technical, creative, and management skills; to promote efficiency and forward-looking technology in a leadership role.",
+	
+	"experience" : [
+		{
+			"company" :		"NYS Office of Information Technology Services (formerly OFT)",
+			"description" :	"Rapid Application Development, contract position via Unisys/Pinnacle1",
+			"url" :			"http://cio.ny.gov/",
+			"title" :		"Senior Web Application Developer",
+			"startdate" :	"August 2011",
+			"enddate" :		"March 2013",
+			"bullets" :	[
+				"Developer on New York State's online grant system: Consolidated Funding Application (CFA), a 'Best of New York' 2012 award winner"
+				,"Developer on NYS News / MediaContact, an application for public information distribution"
+				,"Worked on all aspects of the development lifecycle..."
+				,"...early needs-analysis, database design (MS SQL Server), and planning"
+				,"...server-side development (ColdFusion 9), UI/UX design, client-side/front-end development (jQuery, javascript, CSS), and graphical design"
+				,"...security, optimization, public APIs, and on-demand reporting"
+				,"Agile Project Management - tracked tasks and changing deliverables in a fast-paced environment"
+				,"Created a new, open-source MVC framework to allow for faster development, and cleaner, more moular code"
+				,"Experienced with Open Data / Open Government and FOI concerns"
+				,"Utilized the most up-to-date web technologies - such as HTML5, CSS3, AJAX with JSON - while maintaining backwards compatibility and accessibility"
+			]
+		}
+		,{
+			"company" :		"Freelance Web Development, Design and Consulting",
+			"description" :	"Ongoing freelance work, focused work in 2011 for Burst Marketing",
+			"url" :		"http://cloudmilldesign.com",
+			"title" :		"Web Developer / Consultant",
+			"startdate" :		"1999",
+			"enddate" :		"Present",
+			"bullets" :	[
+				"Developed several original websites (design, coding, graphics) in PHP and ColdFusion"
+				,"Created web-based business and marketing plans"
+				,"Developed websites in WordPress and Magento (PHP) for Burst Marketing (IntelliSites.com)"
+			]
+		}
+		,{
+			"company" :		"Amherst Group Limited",
+			"description" :	"small management consulting firm",
+			"title" :		"Technical Consultant / Web Developer",
+			"startdate" :	"December 2003",
+			"enddate" :		"March 2011",
+			"bullets" :	[
+				"Planned and managed web application development projects, client  internal projects",
+				"Experienced at client relationship management - gathering requirements, effective communications, and managing expectations",
+				"Responsible for designing, programming, troubleshooting and upgrading components of a ColdFusion web application used for online surveying",
+				"Maintained, created, and upgraded several databases in both Oracle and Access<!--: from database structure to data cleaning to query building in SQL-->",
+				"Produced automated reports in both ColdFusion and Crystal Reports",
+				"Constructed user-friendly workbooks to facilitate data collection, data corrections, as well as reporting and analysis",
+				"Adept at producing ad-hoc reports, presentations, and technical documentation",
+				"Competent with self-directed work and handling many simultaneous projects",
+				"Experienced at working in a virtual environment, in small teams with both local and foreign members"
+			]
+		},
+		{
+			"company" :		"The Institute for Traffic Safety Mgmt. & Research",
+			"description" :	"state-funded research group",
+			"url" :			"http://itsmr.org",
+			"title" :		"Research Assistant",
+			"startdate" :	"January 2002",
+			"enddate" :		"November 2003",
+			"bullets" :	[
+				"Prepared reports and analyses of traffic safety data",
+				"Created and maintained several custom databases",
+				"Designed queries, forms, and data-intensive reports"
+			]
+		}
+
+	],
+	
+	"skills" : [
+		{	"name" :		"Project Management", 
+			"category" : 		"general", 
+			"proficiency" : 	8
+		},
+		{	"name" :		"Multi-tasking", 
+			"category" : 		"general", 
+			"proficiency" : 	10
+		},
+		{	"name" :		"Self-direction", 
+			"category" : 		"general", 
+			"proficiency" : 	9
+		},
+		{	"name" :		"Documentation", 
+			"category" : 		"general", 
+			"proficiency" : 	8
+		},
+		{	"name" :		"Communications", 
+			"category" : 		"general", 
+			"proficiency" : 	8.5
+		},
+		{	"name" :		"Information Design", 
+			"category" : 		"data", 
+			"proficiency" : 	9.8
+		},
+		{	"name" :		"Data Analysis", 
+			"category" : 		"data", 
+			"proficiency" : 	7
+		},
+		{	"name" :		"Small teams", 
+			"category" : 		"collaboration", 
+			"proficiency" : 	9.1
+		},
+		{	"name" :		"Virtual work", 
+			"category" : 		"collaboration", 
+			"proficiency" : 	10
+		},
+		{	"name" :		"with International teams", 
+			"category" : 		"collaboration", 
+			"proficiency" : 	8
+		},
+		{	"name" :		"with Multi-national corporations", 
+			"category" : 		"collaboration", 
+			"proficiency" : 	7
+		},
+		{	"name" :		"with Executive-level Leadership", 
+			"category" : 		"collaboration", 
+			"proficiency" : 	7
+		},
+		{	"name" :		"HTML5", 	"proficiency" : 	9.1,
+			"category" : 		"programming" 
+		},
+		{	"name" :		"CSS3", 	"proficiency" : 	9.4,
+			"category" : 		"programming" 
+		},
+		{	"name" :		"Javascript/AJAX/jQuery", 	"proficiency" : 	9,
+			"category" : 		"programming" 
+		},
+		{	"name" :		"ColdFusion (MX 6, 8, 9)", 	"proficiency" : 	8,
+			"category" : 		"programming" 
+		},
+		{	"name" :		"SQL", 	"proficiency" : 	7,
+			"category" : 		"programming" 
+		},
+		{	"name" :		"PHP", 	"proficiency" : 	5,
+			"category" : 		"programming" 
+		},
+		{	"name" :		"Excel", 
+			"category" : 		"software", 
+			"proficiency" : 	8
+		},
+		{	"name" :		"Access", 	"proficiency" : 	9,
+			"category" : 		"software" 
+		},
+		{	"name" :		"PowerPoint", 	"proficiency" : 	7,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Word", 	"proficiency" : 	6,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Outlook", 	"proficiency" : 	6,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Photoshop", 	"proficiency" : 	6,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Google Docs", 	"proficiency" : 	8,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Google Apps", 	"proficiency" : 	8,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Dreamweaver", 	"proficiency" : 	4,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Captivate", 	"proficiency" : 	4,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Crystal Reports", 	"proficiency" : 	6,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Oracle (8i)", 	"proficiency" : 	6,
+			"category" : 		"software" 
+		},
+		{	"name" :		"MySQL", 	"proficiency" : 	5,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Windows", 	"proficiency" : 	9,
+			"category" : 		"software" 
+		}
+	],
+	
+	
+	"education" : [
+		{
+			"school" :	"Bard College",
+			"url" :	"http://bard.edu/",
+			"location" :	"Annandale-on-Hudson, NY",
+			"degree" :	"Bachelor of Arts",
+			"degreedate" :	"May 2001",
+			"major" :		"Mathematics",
+			"minor" :		"Unofficial minors in Physics and Computer Science",
+			"note" :		"Distinguished Scientist Scholar"
+		}
+	],
+	
+	
+	"references" : [
+		{
+			"name" :		"Alexandros Vasilakos",
+			"title" :		"Creative Director",
+			"company" :		"Burst Marketing",
+			"connection" :	"Worked with during 2011",
+			"email" :	["alexvasilakos@burstmarketing.com"],
+			"phone" :	["518-465-0659"]
+		},
+		{
+			"name" :		"Melanie Pender",
+			"title" :		"Consultant",
+			"company" :		"The Amherst Group Limited",
+			"connection" :	"Worked with from 2003 - 2011",
+			"email" :	["melaniepender@gmail.com"],
+			"phone" :	["919-338-8011"]
+		},
+		{
+			"name" :		"Thuong Pham",
+			"title" :		"Former Senior Consultant",
+			"company" :		"The Amherst Group Limited",
+			"connection" :	"Worked with from 2003 - 2009",
+			"email" :	["tpham@tqpindustries.com"],
+			"phone" :	["612-327-7426"]
+		},
+		{
+			"name" :		"Thomas Clinton",
+			"title" :		"Former Director",
+			"company" :		"The Amherst Group Limited",
+			"connection" :	"Worked with from 2005 - 2009",
+			"email" :	["tfclinton@gmail.com"],
+			"phone" :	["805-743-3636"]
+		},
+		{
+			"name" :		"Anne Dowling",
+			"title" :		"Deputy Director",
+			"company" :		"The Institute for Traffic Safety Management & Research",
+			"connection" :	"Worked with from 2002 - 2003",
+			"email" :	["adowling@itsmr.org"],
+			"phone" :	["518-453-0291"]
+		}
+	],
+
+	"footnote" :	"Web portfolio, code samples and additional references available on request"
+	
+}
