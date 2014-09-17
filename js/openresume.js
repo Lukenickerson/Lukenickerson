@@ -34,6 +34,7 @@ function OpenResumeClass (cvId)
 	this.dataDirectory = "data/";
 	this.resumeData = {};
 	this.loadingHtml = '<img src="images/ajax-loader.gif" />Loading...';
+	this.showContactInfo = true;
 	
 	this.setupDocument = function ()
 	{
@@ -58,6 +59,10 @@ function OpenResumeClass (cvId)
 		if (urlVars["cv"]) {
 			this.cvId = urlVars["cv"];
 		}
+		if (urlVars["sci"]) {
+			
+			this.showContactInfo = (parseInt(urlVars["sci"])) ? true : false;
+		}		
 		if (typeof this.cvId !== "string" || this.cvId == "") {
 			this.$destination.html('Error: No "cv" parameter specified.');
 		} else {
@@ -78,42 +83,47 @@ function OpenResumeClass (cvId)
 
 	this.writeResume = function (rObj)
 	{
-		var i;
+		var i, h = "";
 		//var rObj = this.resumeData;
 		console.log(rObj);
-		var h = '<div class="header"><h1>'+rObj.name+'</h1>'
-			+ '<div class="contact"><h2>Contact Information</h2><ul>'
-			+ '<li><label>email:</label> ';
-		for (i = 0; i < rObj.email.length; i++) {
-			if (i>0) h += " | ";
-			h += '<a href="mailto:'+rObj.email[i]+'">' + rObj.email[i] + '</a>';
-		}
-		h += '</li>';
-		if (typeof rObj.phone !== 'undefined') {
-			h += '<li><label>phone:</label> ';
-			for (i = 0; i < rObj.phone.length; i++) {
+		h += '<div class="header"><h1>'+rObj.name+'</h1>'
+			+ '<div class="contact">';
+			
+		if (this.showContactInfo) {
+			h += '<h2>Contact Information</h2><ul>'
+				+ '<li><label>email:</label> ';
+			for (i = 0; i < rObj.email.length; i++) {
 				if (i>0) h += " | ";
-				h += rObj.phone[i];
+				h += '<a href="mailto:'+rObj.email[i]+'">' + rObj.email[i] + '</a>';
 			}
 			h += '</li>';
-		}
-		if (typeof rObj.im !== 'undefined') {
-			h += '<li><label>IM:</label> ';
-			for (i = 0; i < rObj.im.length; i++) {
-				if (i>0) h += " | ";
-				h += rObj.im[i];
+			if (typeof rObj.phone !== 'undefined') {
+				h += '<li><label>phone:</label> ';
+				for (i = 0; i < rObj.phone.length; i++) {
+					if (i>0) h += " | ";
+					h += rObj.phone[i];
+				}
+				h += '</li>';
 			}
-			h += '</li>';
-		}
-		if (typeof rObj.url !== 'undefined') {
-			h += '<li><label>web:</label> ';
-			for (i = 0; i < rObj.url.length; i++) {
-				if (i>0) h += " | ";
-				h += '<a href="'+rObj.url[i]+'">'+rObj.url[i]+'</a>';
+			if (typeof rObj.im !== 'undefined') {
+				h += '<li><label>IM:</label> ';
+				for (i = 0; i < rObj.im.length; i++) {
+					if (i>0) h += " | ";
+					h += rObj.im[i];
+				}
+				h += '</li>';
 			}
-			h += '</li>';
+			if (typeof rObj.url !== 'undefined') {
+				h += '<li><label>web:</label> ';
+				for (i = 0; i < rObj.url.length; i++) {
+					if (i>0) h += " | ";
+					h += '<a href="'+rObj.url[i]+'">'+rObj.url[i]+'</a>';
+				}
+				h += '</li>';
+			}
+			h += '</ul>';
 		}
-		h += '</ul></div><br></div>';
+		h += '</div><br></div>';
 		
 		for (i = 0; i < rObj.order.length; i++) {
 			
@@ -227,7 +237,7 @@ function OpenResumeClass (cvId)
 	//========= Construction
 	if (typeof $ === "undefined") alert("ERROR: No jQuery ($) found!");
 	this.setupDocument();
-	this.load();
+	//this.load();
 
 }
 
