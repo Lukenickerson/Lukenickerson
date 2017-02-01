@@ -126,11 +126,13 @@ function OpenResumeClass (cvId)
 		h += '</div><br></div>';
 		
 		for (i = 0; i < rObj.order.length; i++) {
-			
+			// TODO: Add this back in
+			if (rObj.order[i] !== 'skills') {
 			h = h + '<div class="section '+rObj.order[i]+'"><h2>' + rObj.headers[i] + '</h2>'
 				+ this.getSectionHtml(rObj.order[i], rObj)
 				+ '<br />'
 				+ '</div>';
+			}
 		}	
 		
 		h += '<div class="footnote">'+rObj.footnote+'</div>';
@@ -145,6 +147,7 @@ function OpenResumeClass (cvId)
 
 	this.getSectionHtml = function (sectionName, rObj) 
 	{
+		console.log('Getting section html for ', sectionName);
 		var h = "";
 		switch (sectionName) {
 			case "summary":
@@ -156,13 +159,20 @@ function OpenResumeClass (cvId)
 					h += '<h3>' + xp.company + '</h3>';
 					h += '<ul>';
 					h += '<li class="description">' + xp.description + '</li>';
-					h += '<li class="title">' + xp.title + '</li>';
-					h += '<li class="dates">' + xp.startdate + ' - ' + xp.enddate + '</li>';
-					h += '<li><ul class="xpBulletList">';
-					for (z = 0; z < xp.bullets.length; z++) {
-						h += '<li>' + xp.bullets[z] + '</li>';
+					if (typeof xp.title === 'string') {
+						h += '<li class="title">' + xp.title + '</li>';
 					}
-					h += '</ul></li></ul>';
+					if (typeof xp.startdate === 'string' && typeof xp.enddate === 'string') {
+						h += '<li class="dates">' + xp.startdate + ' - ' + xp.enddate + '</li>';
+					}
+					if (typeof xp.bullets === 'object') {
+						h += '<li><ul class="xpBulletList">';
+						for (z = 0; z < xp.bullets.length; z++) {
+							h += '<li>' + xp.bullets[z] + '</li>';
+						}
+						h += '</ul></li>';
+					}
+					h += '</ul>';
 				}
 				break;
 			case "skills":
