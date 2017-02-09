@@ -1,32 +1,35 @@
 
 {
-	"name":	"Luke Nickerson",
+	"name":		"Luke Nickerson",
 	"email": 	["luke.nickerson@gmail.com"],
 	"phone": 	["518-330-8564"],
-	"url":		["http://lukenickerson.github.io"],
+	"links": [
+		{"Web": "http://lukenickerson.github.io"},
+		{"StackOverflow": "http://stackoverflow.com/story/lukenickerson"},
+		{"LinkedIn": "https://www.linkedin.com/in/lnickerson/"}
+	],
 	"order":	["summary", "experience", "skills", "education", "references"],
-	"headers": ["Objectives", "work experience", "skills", "Education", "references"],
-	"summary":	"To obtain a challenging job that will utilize my analytical, technical, creative, and management skills; to promote efficiency and forward-looking technology in a leadership role.",
+	"headers": 	["Objectives", "work experience", "skills", "Education", "references"],
+	"summary":	"To obtain a challenging job that will utilize my technical, communication, creative, and management skills; to promote efficiency and innovative technology in a leadership role.",
 	
 	"experience" : [
 		{
 			"company": 		"Apprenda, Inc.",
 			"description": 	"Cloud Software Start-up",
-			"title": 		"Senior Frontend Software Engineer, R&D EUX",
+			"title": 		"Senior Frontend Software Engineer, with experience doing Product Management",
 			"startdate": 	"June 2015",
 			"enddate": 		"January 2017",
 			"bullets": [
 				"Developed and reviewed frontend software in JavaScript (Angular, jQuery), HTML, CSS for 3 portals",
 				"Participated in and led agile story teams in estimations, tasking, and completing new features",
-				"Acted as user-advocate both for the Product team and throughout development",
+				"Acted as user-advocate both for the Product team and throughout design and development",
 				"Drafted and prioritized new UX features (stories, epics), based on collaboration with sales and client services",
 				"Worked on navigation design for an open-source project, Kubernetes Dashboard",
 				"Mentored UX Designer, and collabored on designing UX solutions",
-				"Provided unit testing for new and modified code using Mocha and Karma",
-				"Indentify and document bugs and security vulnerabilities"
+				"Provided unit testing for new and refactored code using Mocha and Karma",
+				"Discovered, documented, and fixed bugs and security vulnerabilities"
 			]
-		},
-		{
+		},{
 			"company" :		"NYS Office of Information Technology Services (formerly OFT)",
 			"description" :	"Rapid Application Development, contract position via Unisys/Pinnacle1/InfoPeople",
 			"url" :			"http://cio.ny.gov/",
@@ -47,8 +50,7 @@
 				,"Utilized the most up-to-date web technologies - such as HTML5, CSS3, AJAX with JSON - while maintaining backwards compatibility and accessibility"
 				,"Managed self-directed work and many simultaneous projects"
 			]
-		}
-		,{
+		},{
 			"company" :		"Freelance Web Development, Design and Consulting",
 			"description" :	"ongoing freelance work",
 			"url" :		"http://cloudmilldesign.com",
@@ -61,8 +63,7 @@
 				,"Developed websites in WordPress and Magento (PHP) for Burst Marketing (IntelliSites.com)"
 				,"Created original web-based games under fast deadlines for Ludum Dare (JavaScript and PHP)"
 			]
-		}
-		,{
+		},{
 			"company" :		"Amherst Group Limited",
 			"description" :	"small management consulting firm",
 			"title" :		"Technical Consultant / Lead Web Developer",
@@ -77,8 +78,7 @@
 				"Developed automated reports in both ColdFusion and Crystal Reports",
 				"Experienced with working in a virtual environment, in small teams with both local and international members"
 			]
-		},
-		{
+		},{
 			"company" :		"The Institute for Traffic Safety Mgmt. & Research",
 			"description" :	"state-funded research group",
 			"url" :			"http://itsmr.org",
@@ -91,7 +91,6 @@
 				,"Designed queries, forms, and data-intensive reports"
 			]
 		}
-
 	],
 	
 	"skills" : [
@@ -236,14 +235,14 @@
 			"name": 		"David Callahan",
 			"title":		"Director of R&D (EUX)",
 			"company":		"Apprenda",
-			"connection":	"Worked with 2011-2015",
+			"connection":	"Worked with during 2015-2017",
 			"email":		["david.callahan@battleaxis.com"],
 			"phone":		["650-430-4152"]
 		},{
 			"name": 		"Ed Donohue",
 			"title":		"Director of Mobile and Cloud Development Services",
 			"company":		"NYS Enterprise Business Solutions",
-			"connection":	"Worked with during 2011",
+			"connection":	"Worked with during 2011-2015",
 			"email":		["ed.donohue@its.ny.gov"],
 			"phone":		["518 459-0171"]
 		},{

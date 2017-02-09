@@ -1,93 +1,88 @@
-
 body {
 	padding: 0;
 	margin: 0;
 	text-align: center;
 	background: #cccccc url('../images/StripeFade_BG_2.jpg') repeat-x fixed center bottom;
 	font-family: Verdana, sans-serif;
-	}
+}
 
-H1, H2, H3, H4, H5 {
+h1, h2, h3, h4, h5 {
 	font-family: "Trebuchet MS", Trebuchet, Verdana, sans-serif;
 	color: #0E3666;
-	text-transform:capitalize;
+	text-transform: capitalize;
 	clear: both;
-	}
-H3 { color: black; }
-
-BR { clear: both; }
+}
+h3 { color: black; }
+br { clear: both; }
 
 #system {
-	}
+}
 
 #pagefooter {
 	padding: 2em 2em 8em 2em;
 	font-size: 80%;
-	}
-#pagefooter A {
+}
+#pagefooter a {
 	color: black;
-	}
+}
 
 .web { display: block; }
 .print { display: none; }
+.url {
+	font-size: 70%;
+}
 
 
-H1.title {
-	color: #aaaaaa;
-	margin: 5% 0; padding: 0;
-	text-transform:uppercase;
-	}
+h1.title {
+	color: rgba(0,0,0,0.3);
+	margin: 2% 0; padding: 0;
+	text-transform: uppercase;
+	font-size: 100%;
+}
 
 #resume {
 	display: none;
 	width: 686px;
-	padding: 2em 55px 3em 55px;
-	margin: 5% auto 5% auto;
+	padding: 2em 2.2em 3em 2.2em;
+	margin: 2% auto 2% auto;
 	border: solid 2px black;
-	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	border-radius: 0.5em;
 	
 	text-align: left;
 	
 	background: #ffffff;
-	box-shadow: 4px 4px 20px #000000;
-	-webkit-box-shadow: 4px 4px 20px #000000;
-	-moz-box-shadow: 4px 4px 20px #000000;	
-	}
-
-.resume A {
-	color: #000000;
-	text-decoration: none;
-	}
-.resume A:hover {
-	color: #0E3666;
-	text-decoration: underline;
-	text-shadow: 0 0 0.5em rgba(255,255,255,0.5);
+	box-shadow: 0.2em 0.2em 1em rgba(0,0,0,0.5);
 }
 
-.header {
-	background-color: #0E3666;
-	color: white;
-	padding: 2.5em;
-	margin: -2em -55px 1em -55px;
-	border-radius: 0 0 2em 2em; -moz-border-radius:0 0 2em 2em; -webkit-border-radius: 0 0 2em 2em;
-	text-shadow: #000000 1px 1px 1px;
-	-moz-text-shadow: #000000 1px 1px 1px;
-	-webkit-text-shadow: #000000 1px 1px 1px;
+.resume a {
+	color: #000000;
+	text-decoration: none;
+}
+	.resume a:hover {
+		color: #0E3666;
+		text-decoration: underline;
+		text-shadow: 0 0 0.5em rgba(255,255,255,0.5);
 	}
 
-.header H1 {
+.header {
+	background-color: #112233;
 	color: white;
-	float: left;
-	margin: 0 1em 0 0;
+	padding: 2.5em;
+	margin: -2em -2.2em 1em -2.2em;
+}
+	.header h1 {
+		color: white;
+		float: left;
+		margin: 0 1em 0 0;
 	}
 	
-.contact H2 {
+.contact h2 {
 	display: none;
-	}
+}
 	
 .contact {
 	float: right;
-	}
+}
 	
 .contact ul {
 	text-align: left;
@@ -100,14 +95,13 @@ H1.title {
 	clear: both;
 }
 
-.header A {
+.header a {
 	color: white;
-	}
+}
 	
-.header A:hover {
+.header a:hover {
 	color: white;
-
-	}
+}
 
 
 
@@ -152,8 +146,8 @@ H1.title {
 	background-color: #DDDFE1; /* #dddddd; */ /*#8EB6E6;*/
 	background: -moz-linear-gradient(top, #DDDFE1, #dddddd);
 	background: -webkit-linear-gradient(top, #DDDFE1, #dddddd);	
-	margin: 0 -55px 0 -55px;
-	padding: 1em 55px 2em 55px;
+	margin: 0 -2.2em 0 -2.2em;
+	padding: 1em 2.2em 2em 2.2em;
 	}
 
 .skills LABEL {
