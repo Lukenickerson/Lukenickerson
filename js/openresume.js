@@ -83,8 +83,7 @@ var openResume = (function(){
 			}
 		}
 
-		this.writeResume = function (resume)
-		{
+		this.writeResume = function (resume) {
 			var i, h = "";
 			//var resume = this.resumeData;
 			console.log(resume);
@@ -133,7 +132,7 @@ var openResume = (function(){
 				}
 			}	
 			
-			h += '<div class="footnote">'+resume.footnote+'</div>';
+			h += '<div class="section footnote">'+resume.footnote+'</div>';
 			
 			var $dest = this.$destination;
 			var $foot = this.$footer.fadeOut(100);
@@ -141,7 +140,46 @@ var openResume = (function(){
 				$dest.html(h).fadeInSlideDown(1750);
 				$foot.fadeInSlideDown(1750);
 			});
-		}
+		};
+
+		this.getExperienceHTML = function (xp) {
+			var h = "";
+			h += (
+				'<h3>' + xp.company + '</h3>'
+				+ '<div class="description">' + xp.description + '</div>'
+				+ '<ul>'
+			);
+			if (xp.titles instanceof Array) {
+				for (var i = 0; i < xp.titles.length; i++) {
+					h += this.getRoleHTML(xp.titles[i]);
+				}
+			}
+			if (typeof xp.title === 'string') {
+				h += this.getRoleHTML(xp);
+			}
+
+			h += '</ul>';
+			return h;
+		};
+
+		this.getRoleHTML = function (role) {
+			var h = '<li>';
+			if (typeof role.title === 'string') {
+				h += '<div class="title">' + role.title + '</div>';
+			}
+			if (typeof role.startdate === 'string' && typeof role.enddate === 'string') {
+				h += '<div class="dates">' + role.startdate + ' - ' + role.enddate + '</li>';
+			}
+			if (typeof role.bullets === 'object') {
+				h += '<ul class="xpBulletList">';
+				for (z = 0; z < role.bullets.length; z++) {
+					h += '<li>' + role.bullets[z] + '</li>';
+				}
+				h += '</ul>';
+			}
+			h += '</li>';
+			return h;
+		};
 
 		this.getSectionHtml = function (sectionName, rObj) 
 		{
@@ -153,24 +191,7 @@ var openResume = (function(){
 					break;
 				case "experience":
 					for (i = 0; i < rObj.experience.length; i++) {
-						var xp = rObj.experience[i];
-						h += '<h3>' + xp.company + '</h3>';
-						h += '<ul>';
-						h += '<li class="description">' + xp.description + '</li>';
-						if (typeof xp.title === 'string') {
-							h += '<li class="title">' + xp.title + '</li>';
-						}
-						if (typeof xp.startdate === 'string' && typeof xp.enddate === 'string') {
-							h += '<li class="dates">' + xp.startdate + ' - ' + xp.enddate + '</li>';
-						}
-						if (typeof xp.bullets === 'object') {
-							h += '<li><ul class="xpBulletList">';
-							for (z = 0; z < xp.bullets.length; z++) {
-								h += '<li>' + xp.bullets[z] + '</li>';
-							}
-							h += '</ul></li>';
-						}
-						h += '</ul>';
+						h += this.getExperienceHTML(rObj.experience[i]);
 					}
 					break;
 				case "skills":

@@ -15,19 +15,30 @@
 	"experience" : [
 		{
 			"company": 		"Apprenda, Inc.",
-			"description": 	"Cloud Software Start-up",
-			"title": 		"Senior Frontend Software Engineer, with experience doing Product Management",
-			"startdate": 	"June 2015",
-			"enddate": 		"January 2017",
-			"bullets": [
-				"Developed and reviewed frontend software in JavaScript (Angular, jQuery), HTML, CSS for 3 portals",
-				"Participated in and led agile story teams in estimations, tasking, and completing new features",
-				"Acted as user-advocate both for the Product team and throughout design and development",
-				"Drafted and prioritized new UX features (stories, epics), based on collaboration with sales and client services",
-				"Worked on navigation design for an open-source project, Kubernetes Dashboard",
-				"Mentored UX Designer, and collabored on designing UX solutions",
-				"Provided unit testing for new and refactored code using Mocha and Karma",
-				"Discovered, documented, and fixed bugs and security vulnerabilities"
+			"description": 	"PaaS Software Start-up",
+			"titles": [
+				{
+					"title": 		"Product Manager and UX Designer experience",
+					"startdate": 	"January 2016",
+					"enddate": 		"January 2017",
+					"bullets": [
+						"Acted as a user-advocate both for the Product team and throughout design and development",
+						"Drafted and prioritized new UX features (stories, epics) in JIRA. Ensured they were optimized for customer, market, and sales needs, and followed industry best practices for UX.",
+						"Worked on navigation design for Kubernetes Dashboard, an open-source project",
+						"Mentored new UX Designer, collaborating on designing UX solutions"
+					]
+				},{
+					"title": 		"Senior Frontend UX/UI Software Engineer",
+					"startdate": 	"June 2015",
+					"enddate": 		"January 2017",
+					"bullets": [
+						"Developed and reviewed frontend software in JavaScript (Angular, jQuery), HTML, CSS for 3 portals",
+						"Participated in and led teams in agile story estimations and tasking for new features.",
+						"Provided unit testing for new and refactored code using Mocha and Karma",
+						"Discovered, documented, and fixed bugs and security vulnerabilities",
+						"Developed a new feature for smartly displaying critical user information during an asynchronous system action. Guided the project from a hack-a-thon proof-of-concept, through development, ultimately becoming a widely acclaimed feature of the release which aided sales and client services."
+					]					
+				}
 			]
 		},{
 			"company" :		"NYS Office of Information Technology Services (formerly OFT)",
@@ -218,14 +229,14 @@
 	
 	"education" : [
 		{
-			"school" :	"Bard College",
-			"url" :	"http://bard.edu/",
-			"location" :	"Annandale-on-Hudson, NY",
-			"degree" :	"Bachelor of Arts",
-			"degreedate" :	"May 2001",
-			"major" :		"Mathematics",
-			"minor" :		"Unofficial minors in Physics and Computer Science",
-			"note" :		"Distinguished Scientist Scholar"
+			"school":		"Bard College",
+			"url":			"http://bard.edu/",
+			"location":		"Annandale-on-Hudson, NY",
+			"degree":		"Bachelor of Arts",
+			"degreedate":	"May 2001",
+			"major":		"Mathematics",
+			"minor":		"Unofficial minors in Physics and Computer Science",
+			"note":			"Distinguished Scientist Scholar"
 		}
 	],
 	
@@ -246,43 +257,43 @@
 			"email":		["ed.donohue@its.ny.gov"],
 			"phone":		["518 459-0171"]
 		},{
-			"name":		"Alexandros Vasilakos",
+			"name":			"Alexandros Vasilakos",
 			"title":		"Former Creative Director",
 			"company":		"Burst Marketing",
 			"connection":	"Worked with during 2011",
 			"email":		["avasilakos@gmail.com"],
 			"phone":		["518-465-0659"]
 		},{
-			"name":		"Melanie Pender",
+			"name":			"Melanie Pender",
 			"title":		"Former Consultant",
 			"company":		"The Amherst Group Limited",
 			"connection":	"Worked with from 2003 - 2011",
 			"email":		["melaniepender@gmail.com"],
 			"phone":		["919-338-8011"]
 		},{
-			"name":		"Thuong Pham",
+			"name":			"Thuong Pham",
 			"title":		"Former Senior Consultant",
 			"company":		"The Amherst Group Limited",
 			"connection":	"Worked with from 2003 - 2009",
 			"email":		["tpham@tqpindustries.com"],
 			"phone":		["612-327-7426"]
 		},{
-			"name":		"Thomas Clinton",
+			"name":			"Thomas Clinton",
 			"title":		"Former Director",
 			"company":		"The Amherst Group Limited",
 			"connection":	"Worked with from 2005 - 2009",
 			"email":		["tfclinton@gmail.com"],
 			"phone":		["805-743-3636"]
 		},{
-			"name":		"Anne Dowling",
+			"name":			"Anne Dowling",
 			"title":		"Deputy Director",
 			"company":		"The Institute for Traffic Safety Management & Research",
 			"connection":	"Worked with from 2002 - 2003",
-			"email":	["adowling@itsmr.org"],
-			"phone":	["518-453-0291"]
+			"email":		["adowling@itsmr.org"],
+			"phone":		["518-453-0291"]
 		}
 	],
 
-	"footnote":	"Web portfolio, code samples and additional references available on request"
+	"footnote":	"Portfolio, code samples and additional references are available on request."
 	
 }

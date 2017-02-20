@@ -1,0 +1,287 @@
+body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	/* background: #cccccc url('../images/StripeFade_BG_2.jpg') repeat-x fixed center bottom; */
+	background-color: #ddddde;
+	font-family: 'Roboto', Verdana, sans-serif;
+	color: #111;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Bree Serif', Trebuchet, Verdana, sans-serif;
+	font-weight: normal;
+	color: #445566;
+	text-transform: capitalize;
+	clear: both;
+}
+h2 {
+	text-transform: uppercase;
+}
+h3 { }
+br { clear: both; }
+
+#system {
+}
+
+#pagefooter {
+	padding: 2em 2em 8em 2em;
+	font-size: 80%;
+}
+#pagefooter a {
+	color: black;
+}
+
+.web { display: block; }
+.print { display: none; }
+.url {
+	font-size: 70%;
+}
+
+
+h1.title {
+	color: rgba(0,0,0,0.3);
+	margin: 2% 0; padding: 0;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+
+#resume {
+	display: none;
+	width: 90%;
+	max-width: 50em;
+	margin: 2% auto 2% auto;
+	border-radius: 0.4em;
+	
+	text-align: left;
+	
+	background: #ffffff;
+	box-shadow: 0em 1em 2em rgba(0,0,0,0.25);
+}
+
+.resume a {
+	color: #000000;
+	text-decoration: none;
+}
+	.resume a:hover {
+		color: #0E3666;
+		text-decoration: underline;
+		text-shadow: 0 0 0.5em rgba(255,255,255,0.5);
+	}
+
+.header {
+	color: black;
+	background-color: #f2f3ff;
+	/*background-color: #223344;
+	color: white;
+	*/
+	padding: 2.5em;
+	border-radius: 0.4em 0.4em 0 0;
+}
+	.header h1 {
+		/* color: white; */
+		float: left;
+		margin: 0 1em 0 0;
+		font-weight: normal;
+	}
+		
+	.header br {
+		clear: both;
+	}
+
+	.header a {
+		/* color: white; */
+	}
+		
+		.header a:hover {
+			/* color: white; */
+		}
+
+
+.contact h2 {
+	display: none;
+}
+	
+.contact {
+	float: right;
+}
+	
+.contact ul {
+	text-align: left;
+}
+.contact li {
+	margin-bottom: 0.5em;
+}
+	
+
+
+
+
+
+	
+/* ======= sections ======= */
+
+.section {
+	margin-bottom: 1em;
+	padding: 0 2.5em;
+}
+
+	.section.footnote {
+		padding-bottom: 2em;
+		font-style: italic;
+	}
+	
+.section ul {
+	margin: 0em 0em 0em 0em;
+	padding: 0;
+	list-style-type: none;
+}
+	.section ul.xpBulletList {
+		margin-bottom: 1em;
+		margin-top: 0.8em;
+		padding: 0 0 0 3em;
+		list-style-type: disc;
+	}
+		.section ul.xpBulletList > li {
+			margin-bottom: 0.25em;
+		}
+	
+.section h3 {
+	margin-left: 0em;
+	margin-bottom: 0.4em;
+	color: #345;
+}
+
+	
+
+
+
+.experience .description {
+	color: #717171;
+}
+
+
+
+.skills {
+	background-color: #DDDFE1; /* #dddddd; */ /*#8EB6E6;*/
+	background: -moz-linear-gradient(top, #DDDFE1, #dddddd);
+	background: -webkit-linear-gradient(top, #DDDFE1, #dddddd);	
+	margin: 0 -2.2em 0 -2.2em;
+	padding: 1em 2.2em 2em 2.2em;
+	}
+
+.skills label {
+	display: block;
+	float: left; clear: left;
+	padding: 0 2em 0 0;
+	width: 20em;
+	}
+
+.skills ul {
+	margin-left: 2em;
+	}
+	
+.skills li {
+	font-size: 80%;
+	overflow: auto;
+	padding: 0.05em 1em;
+}
+	
+.barout {
+	display: block; height: 9px; width: 100px;
+	background-color: white;
+	float: left;
+	border: solid 1px #666666;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	}
+.barin {
+	display: block; height: 9px; width: 0px;
+	background-color: #336699; /* #999999; */
+	font-size: 8px;
+	text-align: right;
+	color: transparent;
+	border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0;
+	}
+
+.skills li:hover {
+	background-color: rgba(0,0,0,0.05);
+}
+.skills li:hover .barin {
+	border-color: #000000;
+	background-color: #4477aa;
+}
+.barin:hover {
+	color: #0E3666;
+}
+	
+.skills li:hover .barout {
+	box-shadow: 3px 3px 10px rgba(50,50,50,0.25);
+}
+
+
+	
+	
+.education h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	float: left;
+}
+
+li { 
+	clear: left;
+}
+	
+	li.location {
+		padding-top: 0.3em;
+		clear: none;
+		float: left;
+	}
+	
+	
+
+.minors {
+	color: #717171;
+}
+
+.references h3 {
+	
+}
+.references label {
+	display: none;
+}
+	
+.references .connection {
+	color: #717171;
+}
+
+@media only screen and (max-width : 800px) {
+	body {
+		font-size: 1.25em;
+	}
+	#resume {
+		width: 95%;
+	}
+}
+	
+
+@media only screen and (max-width : 600px) {
+	body {
+		font-size: 1.5em;
+		background: #223344;
+	}
+	#resume {
+		width: 100%;
+		box-shadow: none;
+		border-radius: 0;
+	}
+	.header {
+		padding: 1em;
+		border-radius: 0;
+	}
+	.section {
+		padding: 0 1em;
+	}
+
+}
+	
