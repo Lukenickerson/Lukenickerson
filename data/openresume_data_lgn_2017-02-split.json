@@ -1,0 +1,299 @@
+
+{
+	"name":		"Luke Nickerson",
+	"email": 	["luke.nickerson@gmail.com"],
+	"phone": 	["518-330-8564"],
+	"links": [
+		{"Web": "http://lukenickerson.github.io"},
+		{"StackOverflow": "http://stackoverflow.com/story/lukenickerson"},
+		{"LinkedIn": "https://www.linkedin.com/in/lnickerson/"}
+	],
+	"order":	["summary", "experience", "skills", "education", "references"],
+	"headers": 	["Objectives", "work experience", "skills", "Education", "references"],
+	"summary":	"To obtain a challenging job that will utilize my technical, communication, creative, and management skills; to promote efficiency and innovative technology in a leadership role.",
+	
+	"experience" : [
+		{
+			"company": 		"Apprenda, Inc.",
+			"description": 	"PaaS Software Start-up",
+			"titles": [
+				{
+					"title": 		"Product Manager and UX Designer experience",
+					"startdate": 	"January 2016",
+					"enddate": 		"January 2017",
+					"bullets": [
+						"Acted as a user-advocate both for the Product team and throughout design and development",
+						"Drafted and prioritized new UX features (stories, epics) in JIRA. Ensured they were optimized for customer, market, and sales needs, and followed industry best practices for UX.",
+						"Worked on navigation design for Kubernetes Dashboard, an open-source project",
+						"Mentored new UX Designer, collaborating on designing UX solutions"
+					]
+				},{
+					"title": 		"Senior Frontend UX/UI Software Engineer",
+					"startdate": 	"June 2015",
+					"enddate": 		"January 2017",
+					"bullets": [
+						"Developed and reviewed frontend software in JavaScript (Angular, jQuery), HTML, CSS for 3 portals",
+						"Participated in and led teams in agile story estimations and tasking for new features.",
+						"Provided unit testing for new and refactored code using Mocha and Karma",
+						"Discovered, documented, and fixed bugs and security vulnerabilities",
+						"Developed a new feature for smartly displaying critical user information during an asynchronous system action. Guided the project from a hack-a-thon proof-of-concept, through development, ultimately becoming a widely acclaimed feature of the release which aided sales and client services."
+					]					
+				}
+			]
+		},{
+			"company" :		"NYS Office of Information Technology Services (formerly OFT)",
+			"description" :	"Rapid Application Development, contract position via Unisys/Pinnacle1/InfoPeople",
+			"url" :			"http://cio.ny.gov/",
+			"title" :		"Senior Web Application Developer",
+			"startdate" :	"August 2011",
+			"enddate" :		"June 2015",
+			"bullets" :	[
+				"Developed New York State's online grant system: Consolidated Funding Application (CFA), a 'Best of New York' 2012 award winner"
+				,"Developed NYS News / MediaContact, an application for public information distribution"
+				,"Worked on all aspects of the development lifecycle..."
+				,"...early needs-analysis, database design (MS SQL Server), and planning"
+				,"...server-side development with ColdFusion and PHP"
+				,"...UI/UX design, client-side/front-end development (jQuery, javascript, CSS), and graphical design"
+				,"...security, optimization, public APIs, and on-demand reporting"
+				,"Agile Project Management: tracked tasks and changing deliverables in a fast-paced environment"
+				,"Created a new MVC framework to allow for faster development and more moular code (based on CodeIgniter/PHP)"
+				,"Experienced with Open Data / Open Government and FOI concerns"
+				,"Utilized the most up-to-date web technologies - such as HTML5, CSS3, AJAX with JSON - while maintaining backwards compatibility and accessibility"
+				,"Managed self-directed work and many simultaneous projects"
+			]
+		},{
+			"company" :		"Freelance Web Development, Design and Consulting",
+			"description" :	"ongoing freelance work",
+			"url" :		"http://cloudmilldesign.com",
+			"title" :		"Web Developer / Consultant",
+			"startdate" :		"1999",
+			"enddate" :		"Present",
+			"bullets" :	[
+				"Designed and developed several original websites in PHP and ColdFusion"
+				,"Developed websites in PHP (CodeIgniter) and ColdFusion for TroyWeb"
+				,"Developed websites in WordPress and Magento (PHP) for Burst Marketing (IntelliSites.com)"
+				,"Created original web-based games under fast deadlines for Ludum Dare (JavaScript and PHP)"
+			]
+		},{
+			"company" :		"Amherst Group Limited",
+			"description" :	"small management consulting firm",
+			"title" :		"Technical Consultant / Lead Web Developer",
+			"startdate" :	"December 2003",
+			"enddate" :		"March 2011",
+			"bullets" :	[
+				"Planned and managed web application development projects, client internal projects",
+				"Managed client relationships: gathering requirements, effective communications, and managing expectations",
+				"Designed, programmed, and provided troubleshooting for a ColdFusion web application used for online surveying",
+				"Maintained, created, and upgraded several databases in both Oracle and Access",
+				"Produced ad-hoc analytical reports, presentations, and technical documentation",
+				"Developed automated reports in both ColdFusion and Crystal Reports",
+				"Experienced with working in a virtual environment, in small teams with both local and international members"
+			]
+		},{
+			"company" :		"The Institute for Traffic Safety Mgmt. & Research",
+			"description" :	"state-funded research group",
+			"url" :			"http://itsmr.org",
+			"title" :		"Research Assistant",
+			"startdate" :	"January 2002",
+			"enddate" :		"November 2003",
+			"bullets" :	[
+				"Prepared reports and analyses of traffic safety data"
+				,"Created and maintained several custom databases"
+				,"Designed queries, forms, and data-intensive reports"
+			]
+		}
+	],
+	
+	"skills" : [
+
+		{	"name" :		"Multi-tasking", 
+			"category" : 		"general", 
+			"proficiency" : 	10
+		},
+		{	"name" :		"Self-direction", 
+			"category" : 		"general", 
+			"proficiency" : 	9.5
+		},
+		{	"name" :		"Communications", 
+			"category" : 		"general", 
+			"proficiency" : 	8.5
+		},		
+		{	"name" :		"Project Management", 
+			"category" : 		"general", 
+			"proficiency" : 	8
+		},		
+		{	"name" :		"Documentation", 
+			"category" : 		"general", 
+			"proficiency" : 	8
+		},
+		{	"name" :		"User Experience UX/UI", 
+			"category" : 		"general", 
+			"proficiency" : 	7
+		},		
+		
+		{	"name" :		"Information Design", 
+			"category" : 		"data", 
+			"proficiency" : 	9.8
+		},
+		{	"name" :		"Data Analysis", 
+			"category" : 		"data", 
+			"proficiency" : 	8
+		},
+		{	"name" :		"Virtual work", 
+			"category" : 		"collaboration", 
+			"proficiency" : 	10
+		},		
+		{	"name" :		"Small teams", 
+			"category" : 		"collaboration", 
+			"proficiency" : 	9.3
+		},
+		{	"name" :		"with International teams", 
+			"category" : 		"collaboration", 
+			"proficiency" : 	8
+		},
+		{	"name" :		"with Multi-national corporations", 
+			"category" : 		"collaboration", 
+			"proficiency" : 	7
+		},
+		{	"name" :		"with Executive-level Leadership", 
+			"category" : 		"collaboration", 
+			"proficiency" : 	7
+		},
+		
+		{	"name" :		"HTML5", 	"proficiency" : 	9.3,
+			"category" : 		"programming" 
+		},
+		{	"name" :		"CSS3", 	"proficiency" : 	9.3,
+			"category" : 		"programming" 
+		},
+		{	"name" :		"Javascript/AJAX/jQuery", 	"proficiency" : 	9,
+			"category" : 		"programming" 
+		},
+		{	"name" :		"ColdFusion (6, 8, 9, 10)", 	"proficiency" : 	8.5,
+			"category" : 		"programming" 
+		},
+		{	"name" :		"PHP", 	"proficiency" : 	8,
+			"category" : 		"programming" 
+		},		
+		{	"name" :		"SQL", 	"proficiency" : 	8,
+			"category" : 		"programming" 
+		},
+
+		{	"name" :		"Google Docs"
+			,"proficiency" : 	9
+			,"category" : 		"software" 
+		},
+		{	"name" :		"Google Apps"
+			,"proficiency" : 	9
+			,"category" : 		"software" 
+		},		
+		{	"name" :		"Excel", 
+			"category" : 		"software", 
+			"proficiency" : 	8
+		},
+		{	"name" :		"Access", 	"proficiency" : 	8,
+			"category" : 		"software" 
+		},
+		{	"name" :		"PowerPoint", 	"proficiency" : 	7,
+			"category" : 		"software" 
+		},
+		{	"name" :		"MySQL", 	"proficiency" : 	7,
+			"category" : 		"software" 
+		},
+		{	"name" :		"MS SQL", 	"proficiency" : 	7,
+			"category" : 		"software" 
+		},	
+		{	"name" :		"Word", 	"proficiency" : 	6,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Outlook", 	"proficiency" : 	6,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Photoshop", 	"proficiency" : 	6,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Crystal Reports", 	"proficiency" : 	5,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Oracle (8i)", 	"proficiency" : 	5,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Dreamweaver", 	"proficiency" : 	4,
+			"category" : 		"software" 
+		},
+		{	"name" :		"Captivate", 	"proficiency" : 	4,
+			"category" : 		"software" 
+		}
+	],
+	
+	
+	"education" : [
+		{
+			"school":		"Bard College",
+			"url":			"http://bard.edu/",
+			"location":		"Annandale-on-Hudson, NY",
+			"degree":		"Bachelor of Arts",
+			"degreedate":	"May 2001",
+			"major":		"Mathematics",
+			"minor":		"Unofficial minors in Physics and Computer Science",
+			"note":			"Distinguished Scientist Scholar"
+		}
+	],
+	
+	
+	"references" : [
+		{
+			"name": 		"David Callahan",
+			"title":		"Director of R&D (EUX)",
+			"company":		"Apprenda",
+			"connection":	"Worked with during 2015-2017",
+			"email":		["david.callahan@battleaxis.com"],
+			"phone":		["650-430-4152"]
+		},{
+			"name": 		"Ed Donohue",
+			"title":		"Director of Mobile and Cloud Development Services",
+			"company":		"NYS Enterprise Business Solutions",
+			"connection":	"Worked with during 2011-2015",
+			"email":		["ed.donohue@its.ny.gov"],
+			"phone":		["518 459-0171"]
+		},{
+			"name":			"Alexandros Vasilakos",
+			"title":		"Former Creative Director",
+			"company":		"Burst Marketing",
+			"connection":	"Worked with during 2011",
+			"email":		["avasilakos@gmail.com"],
+			"phone":		["518-465-0659"]
+		},{
+			"name":			"Melanie Pender",
+			"title":		"Former Consultant",
+			"company":		"The Amherst Group Limited",
+			"connection":	"Worked with from 2003 - 2011",
+			"email":		["melaniepender@gmail.com"],
+			"phone":		["919-338-8011"]
+		},{
+			"name":			"Thuong Pham",
+			"title":		"Former Senior Consultant",
+			"company":		"The Amherst Group Limited",
+			"connection":	"Worked with from 2003 - 2009",
+			"email":		["tpham@tqpindustries.com"],
+			"phone":		["612-327-7426"]
+		},{
+			"name":			"Thomas Clinton",
+			"title":		"Former Director",
+			"company":		"The Amherst Group Limited",
+			"connection":	"Worked with from 2005 - 2009",
+			"email":		["tfclinton@gmail.com"],
+			"phone":		["805-743-3636"]
+		},{
+			"name":			"Anne Dowling",
+			"title":		"Deputy Director",
+			"company":		"The Institute for Traffic Safety Management & Research",
+			"connection":	"Worked with from 2002 - 2003",
+			"email":		["adowling@itsmr.org"],
+			"phone":		["518-453-0291"]
+		}
+	],
+
+	"footnote":	"Portfolio, code samples and additional references are available on request."
+	
+}
