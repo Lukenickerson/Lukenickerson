@@ -8,8 +8,8 @@
 		{"StackOverflow": "http://stackoverflow.com/story/lukenickerson"},
 		{"LinkedIn": "https://www.linkedin.com/in/lnickerson/"}
 	],
-	"order":	["summary", "experience", "skills", "education", "references"],
-	"headers": 	["Objectives", "work experience", "skills", "Education", "references"],
+	"order":	["summary", "experience", "skills", "education"],
+	"headers": 	["Objectives", "work experience", "skills", "Education"],
 	"summary":	"To obtain a challenging job that will utilize my technical, communication, creative, and management skills; to promote efficiency and innovative technology in a leadership role.",
 	
 	"experience" : [
@@ -51,10 +51,10 @@
 				"Developed New York State's online grant system: Consolidated Funding Application (CFA), a 'Best of New York' 2012 award winner"
 				,"Developed NYS News / MediaContact, an application for public information distribution"
 				,"Worked on all aspects of the development lifecycle..."
-				,"...early needs-analysis, database design (MS SQL Server), and planning"
-				,"...server-side development with ColdFusion and PHP"
-				,"...UI/UX design, client-side/front-end development (jQuery, javascript, CSS), and graphical design"
-				,"...security, optimization, public APIs, and on-demand reporting"
+				,"Provided early needs-analysis, database design (MS SQL Server), and planning"
+				,"Developed server-side code in ColdFusion"
+				,"Designed UI and UX, developed client-side/front-end (jQuery, javascript, CSS), and did graphic design work"
+				,"Provided in-depth security solutions, optimization, designed public APIs, and on-demand reporting"
 				,"Agile Project Management: tracked tasks and changing deliverables in a fast-paced environment"
 				,"Created a new MVC framework to allow for faster development and more moular code (based on CodeIgniter/PHP)"
 				,"Experienced with Open Data / Open Government and FOI concerns"
@@ -239,61 +239,7 @@
 			"note":			"Distinguished Scientist Scholar"
 		}
 	],
-	
-	
-	"references" : [
-		{
-			"name": 		"David Callahan",
-			"title":		"Director of R&D (EUX)",
-			"company":		"Apprenda",
-			"connection":	"Worked with during 2015-2017",
-			"email":		["david.callahan@battleaxis.com"],
-			"phone":		["650-430-4152"]
-		},{
-			"name": 		"Ed Donohue",
-			"title":		"Director of Mobile and Cloud Development Services",
-			"company":		"NYS Enterprise Business Solutions",
-			"connection":	"Worked with during 2011-2015",
-			"email":		["ed.donohue@its.ny.gov"],
-			"phone":		["518 459-0171"]
-		},{
-			"name":			"Alexandros Vasilakos",
-			"title":		"Former Creative Director",
-			"company":		"Burst Marketing",
-			"connection":	"Worked with during 2011",
-			"email":		["avasilakos@gmail.com"],
-			"phone":		["518-465-0659"]
-		},{
-			"name":			"Melanie Pender",
-			"title":		"Former Consultant",
-			"company":		"The Amherst Group Limited",
-			"connection":	"Worked with from 2003 - 2011",
-			"email":		["melaniepender@gmail.com"],
-			"phone":		["919-338-8011"]
-		},{
-			"name":			"Thuong Pham",
-			"title":		"Former Senior Consultant",
-			"company":		"The Amherst Group Limited",
-			"connection":	"Worked with from 2003 - 2009",
-			"email":		["tpham@tqpindustries.com"],
-			"phone":		["612-327-7426"]
-		},{
-			"name":			"Thomas Clinton",
-			"title":		"Former Director",
-			"company":		"The Amherst Group Limited",
-			"connection":	"Worked with from 2005 - 2009",
-			"email":		["tfclinton@gmail.com"],
-			"phone":		["805-743-3636"]
-		},{
-			"name":			"Anne Dowling",
-			"title":		"Deputy Director",
-			"company":		"The Institute for Traffic Safety Management & Research",
-			"connection":	"Worked with from 2002 - 2003",
-			"email":		["adowling@itsmr.org"],
-			"phone":		["518-453-0291"]
-		}
-	],
 
-	"footnote":	"Portfolio, code samples and additional references are available on request."
+	"footnote":	"References and portfolio are available on request."
 	
 }

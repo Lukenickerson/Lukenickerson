@@ -92,14 +92,14 @@ var openResume = (function(){
 				
 			if (this.showContactInfo) {
 				h += '<h2>Contact Information</h2><ul>'
-					+ '<li><label>email:</label> ';
+					+ '<li><label>Email:</label> ';
 				for (i = 0; i < resume.email.length; i++) {
 					if (i>0) h += " | ";
 					h += '<a href="mailto:'+resume.email[i]+'">' + resume.email[i] + '</a>';
 				}
 				h += '</li>';
 				if (typeof resume.phone !== 'undefined') {
-					h += '<li><label>phone:</label> ';
+					h += '<li><label>Phone:</label> ';
 					for (i = 0; i < resume.phone.length; i++) {
 						if (i>0) h += " | ";
 						h += '<a href="tel:' + resume.phone[i] + '">' + resume.phone[i] + '</a>';
@@ -125,10 +125,10 @@ var openResume = (function(){
 			for (i = 0; i < resume.order.length; i++) {
 				// TODO: Add this back in
 				if (resume.order[i] !== 'skills') {
-				h = h + '<div class="section '+resume.order[i]+'"><h2>' + resume.headers[i] + '</h2>'
-					+ this.getSectionHtml(resume.order[i], resume)
-					+ '<br />'
-					+ '</div>';
+					h = h + '<div class="section '+resume.order[i]+'"><h2>' + resume.headers[i] + '</h2>'
+						+ this.getSectionHtml(resume.order[i], resume)
+						+ '<br />'
+						+ '</div>';
 				}
 			}	
 			
@@ -229,19 +229,22 @@ var openResume = (function(){
 					}
 					break;
 				case "references":
+					if (typeof rObj.references === 'undefined') {
+						break;
+					}
 					for (i = 0; i < rObj.references.length; i++) {
 						var ref = rObj.references[i];
 						h += '<h3>' + ref.name + '</h3>';
 						h += '<ul>';
 						h += '<li class="titlecompany">' + ref.title + ', ' + ref.company +  '</li>';
 						h += '<li class="connection">' + ref.connection +  '</li>';
-						h += '<li class="email"><label>email: </label>';
+						h += '<li class="email"><label>Email: </label>';
 						for (z = 0; z < ref.email.length; z++) {
 							if (z > 0) h += " | ";
 							h += '<a href="mailto:' + ref.email[z] + '">'+ ref.email[z] + '</a>';
 						}
 						h += '</li>';
-						h += '<li class="phone"><label>phone: </label>';
+						h += '<li class="phone"><label>Phone: </label>';
 						for (z = 0; z < ref.phone.length; z++) {
 							if (z > 0) h += " | ";
 							h += ref.phone[z];

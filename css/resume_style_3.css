@@ -108,6 +108,8 @@ h1.title {
 	
 .contact ul {
 	text-align: left;
+	display: block;
+	list-style: none;
 }
 .contact li {
 	margin-bottom: 0.5em;
@@ -268,7 +270,6 @@ li {
 @media only screen and (max-width : 600px) {
 	body {
 		font-size: 1.5em;
-		background: #223344;
 	}
 	#resume {
 		width: 100%;
