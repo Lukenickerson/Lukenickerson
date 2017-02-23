@@ -32,7 +32,7 @@ var openResume = (function(){
 	{
 		this.cvId = cvId;
 		this.$destination = $('#resume').addClass("resume");
-		this.$footer = $('#pagefooter');
+		this.$footer = $('body > footer');
 		this.dataDirectory = "data/";
 		this.resumeData = {};
 		this.loadingHtml = '<img src="images/ajax-loader.gif" />Loading...';
@@ -41,8 +41,9 @@ var openResume = (function(){
 		this.setupDocument = function ()
 		{
 			if (this.$destination.length == 0) 	this.$destination = $('<div id="resume" class="resume"></div>').appendTo('body');
-			if (this.$footer.length == 0) 		this.$footer = $('<div id="pagefooter"></div>').appendTo('body');
+			if (this.$footer.length == 0) 		this.$footer = $('<footer></footer>').appendTo('body');
 			var $dest = this.$destination;
+			this.$footer.hide();
 			$dest.html(this.loadingHtml);
 			$dest.ajaxError( function(e, xhr, ajaxOptions, thrownError) {
 				console.error("Ajax Error");
@@ -56,7 +57,6 @@ var openResume = (function(){
 		
 		this.load = function () 
 		{
-			
 			var urlVars = getUrlVars();
 			if (urlVars["cv"]) {
 				this.cvId = urlVars["cv"];
@@ -68,25 +68,23 @@ var openResume = (function(){
 			if (typeof this.cvId !== "string" || this.cvId == "") {
 				this.$destination.html('Error: No "cv" parameter specified.');
 			} else {
-				var jsonUrl = this.dataDirectory + "openresume_data_" + this.cvId + ".json";
-				console.log("Loading data from " + jsonUrl);
+				var jsonURL = this.dataDirectory + "openresume_data_" + this.cvId + ".json";
+				console.log("Loading data from " + jsonURL);
 				var o = this;
-				$.getJSON(jsonUrl, function (resumeObj) {
-					// *** TO DO: do some checks on the resumeObj to make sure it's 'valid' for resume data
-					console.log(resumeObj);
-					this.resumeData = resumeObj;
-					o.writeResume(resumeObj);
-					
-					document.title = resumeObj.name + "'s Resume";
-					$('#pagefooter').html('<div class="web"><a href="'+jsonUrl+'">This resume is also available in JSON format.</a><br />Design and Coding &copy; 2010-2017 Luke Nickerson</div><div class="print">This resume is available online in HTML and JSON formats at '+window.location.href + '</div>');
+				$.getJSON(jsonURL, function (response) {
+					// TODO: do some checks on the response to make sure it's 'valid' for resume data
+					o.resumeData = response;
+					o.writeResume(response, jsonURL);
 				});
 			}
 		}
 
-		this.writeResume = function (resume) {
+		this.writeResume = function (resume, jsonURL) {
+			var o = this;
 			var i, h = "";
 			//var resume = this.resumeData;
-			console.log(resume);
+			console.log("Writing resume:", resume);
+			document.title = resume.name + "'s Resume";
 			h += '<div class="header"><h1>'+resume.name+'</h1>'
 				+ '<div class="contact">';
 				
@@ -134,11 +132,15 @@ var openResume = (function(){
 			
 			h += '<div class="section footnote">'+resume.footnote+'</div>';
 			
-			var $dest = this.$destination;
-			var $foot = this.$footer.fadeOut(100);
-			$dest.slideUp(500,function(){
-				$dest.html(h).fadeInSlideDown(1750);
-				$foot.fadeInSlideDown(1750);
+			o.$footer.append(
+				'<p class="web">The resume data is also <a href="'+ jsonURL +'">available in JSON format</a>.</p>'
+				+ '<p class="web">Design and Coding &copy; 2010-2017 Luke Nickerson</p>'
+				+ '<p class="print">This resume is available online in HTML and JSON formats at '+ window.location.href + '</p>'
+			).fadeOut(100);
+
+			o.$destination.slideUp(500,function(){
+				o.$destination.html(h).fadeInSlideDown(1750);
+				o.$footer.fadeInSlideDown(1750);
 			});
 		};
 
