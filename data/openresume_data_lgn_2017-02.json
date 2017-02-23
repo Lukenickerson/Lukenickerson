@@ -15,7 +15,8 @@
 	"experience" : [
 		{
 			"company": 		"Apprenda, Inc.",
-			"description": 	"PaaS Software Start-up",
+			"description": 	"Platform-as-a-Service Software Start-up",
+			"url": 			"http://apprenda.com/",
 			"titles": [
 				{
 					"title": 		"Product Manager and UX Designer experience",
@@ -27,7 +28,8 @@
 						"Researched best practices for user research and interface design and promoted their adoption through new features",
 						"Mentored UX Designer, collaborating on designing navigation for Kubernetes Dashboard, an open-source project",
 						"Created a rebranding strategy to provide incremental improvements to the design of customer-facing portals",
-						"Worked on a strategy and roadmap for integrating open source portal software into the product"
+						"Worked on a strategy and roadmap for integrating open source portal software into the product",
+						"Developed REST API specifications in Swagger"
 					]
 				},{
 					"title": 		"Senior Frontend UX/UI Software Engineer",
@@ -54,43 +56,42 @@
 				"Developed New York State's online grant system: Consolidated Funding Application (CFA), a 'Best of New York' 2012 award winner, and one of the Governor's top initiatives"
 				,"Created a new backend MVC framework to allow for much faster development and more moular code (based on ideas from CodeIgniter/PHP)"
 				,"Developed NYS News / MediaContact, an application for public information distribution"
+				,"Created a tightly collaborative and trusting working relationship with clients (NYS agencies)"
 				,"Worked on all aspects of the development lifecycle, on all areas of the application..."
 				,"Provided early needs-analysis, database design (MS SQL Server), and planning"
 				,"Developed server-side code in ColdFusion"
 				,"Designed UI and UX, developed client-side/front-end (jQuery, javascript, CSS), and did graphic design work"
 				,"Provided in-depth security solutions, optimization, designed public APIs, and on-demand reporting"
-				,"Agile Project Management: tracked tasks and changing deliverables in a fast-paced environment"
+				,"SCRUM/Agile Project Management: tracked tasks and changing deliverables in a fast-paced environment"
 				,"Experienced with Open Data / Open Government and FOI concerns"
 				,"Utilized the most up-to-date web technologies - such as HTML5, CSS3, AJAX with JSON - while maintaining backwards compatibility and accessibility"
 				,"Managed self-directed work and many simultaneous projects"
 			]
 		},{
-			"company" :		"Freelance Web Development, Design and Consulting",
-			"description" :	"ongoing freelance work",
-			"url" :		"http://cloudmilldesign.com",
-			"title" :		"Web Developer / Consultant",
-			"startdate" :		"1999",
-			"enddate" :		"Present",
-			"bullets" :	[
+			"company":		"Amherst Group Limited",
+			"description":	"small management consulting firm with global clients",
+			"title":		"Technical Consultant / Lead Web Developer",
+			"startdate":	"December 2003",
+			"enddate":		"March 2011",
+			"bullets":	[
+				"Managed global client relationships: gathering requirements, effective communications, and managing expectations",
+				"Designed, programmed, and provided troubleshooting for a ColdFusion web application used for online surveying",
+				"Planned and managed web application development projects",
+				"Maintained, created, and upgraded several databases in both Oracle and Access",
+				"Produced both ad-hoc and automated analytical reports, presentations, and technical documentation (ColdFusion, Crystal Reports, Excel)",
+				"Experienced with working in a virtual environment, in small teams with both local and international members"
+			]
+		},{
+			"company":		"Freelance Web Development, Design and Consulting",
+			"description":	"ongoing freelance work",
+			"title":		"Web Developer / Consultant",
+			"startdate":	"1999",
+			"enddate":		"Present",
+			"bullets":	[
 				"Designed and developed several original websites in PHP and ColdFusion"
 				,"Developed websites in PHP (CodeIgniter) and ColdFusion for TroyWeb"
 				,"Developed websites in WordPress and Magento (PHP) for Burst Marketing (IntelliSites.com)"
 				,"Created original web-based games under fast deadlines for Ludum Dare (JavaScript and PHP)"
-			]
-		},{
-			"company" :		"Amherst Group Limited",
-			"description" :	"small management consulting firm",
-			"title" :		"Technical Consultant / Lead Web Developer",
-			"startdate" :	"December 2003",
-			"enddate" :		"March 2011",
-			"bullets" :	[
-				"Planned and managed web application development projects, client internal projects",
-				"Managed client relationships: gathering requirements, effective communications, and managing expectations",
-				"Designed, programmed, and provided troubleshooting for a ColdFusion web application used for online surveying",
-				"Maintained, created, and upgraded several databases in both Oracle and Access",
-				"Produced ad-hoc analytical reports, presentations, and technical documentation",
-				"Developed automated reports in both ColdFusion and Crystal Reports",
-				"Experienced with working in a virtual environment, in small teams with both local and international members"
 			]
 		},{
 			"company" :		"The Institute for Traffic Safety Mgmt. & Research",
