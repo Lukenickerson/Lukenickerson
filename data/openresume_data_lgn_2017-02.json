@@ -4,13 +4,13 @@
 	"email": 	["luke.nickerson@gmail.com"],
 	"phone": 	["518-330-8564"],
 	"links": [
-		{"Web": "http://lukenickerson.github.io"},
+		{"Web": "http://lukenickerson.com"},
 		{"StackOverflow": "http://stackoverflow.com/story/lukenickerson"},
 		{"LinkedIn": "https://www.linkedin.com/in/lnickerson/"}
 	],
-	"order":	["summary", "experience", "skills", "education", "references"],
-	"headers": 	["Objectives", "work experience", "skills", "Education", "references"],
-	"summary":	"To obtain a challenging job that will utilize my technical, communication, creative, and management skills; to promote efficiency and innovative technology in a leadership role.",
+	"order":	["summary", "experience", "skills", "education"],
+	"headers": 	["Objective", "work experience", "skills", "Education"],
+	"summary":	"To utilize my 15+ years working with technology to create innovative, efficient, and user-friendly software solutions in a leadership role.",
 	
 	"experience" : [
 		{
@@ -22,10 +22,12 @@
 					"startdate": 	"January 2016",
 					"enddate": 		"January 2017",
 					"bullets": [
-						"Acted as a user-advocate both for the Product team and throughout design and development",
-						"Drafted and prioritized new UX features (stories, epics) in JIRA. Ensured they were optimized for customer, market, and sales needs, and followed industry best practices for UX.",
-						"Worked on navigation design for Kubernetes Dashboard, an open-source project",
-						"Mentored new UX Designer, collaborating on designing UX solutions"
+						"Recruited into the Product team to provide UX leadership and acted as a user-advocate throughout design and development",
+						"Drafted and prioritized new UX features as agile stories and epics in JIRA. Ensured they were optimized for customer, market, and sales needs, and followed industry best practices for UX.",
+						"Researched best practices for user research and interface design and promoted their adoption through new features",
+						"Mentored UX Designer, collaborating on designing navigation for Kubernetes Dashboard, an open-source project",
+						"Created a rebranding strategy to provide incremental improvements to the design of customer-facing portals",
+						"Worked on a strategy and roadmap for integrating open source portal software into the product"
 					]
 				},{
 					"title": 		"Senior Frontend UX/UI Software Engineer",
@@ -33,10 +35,11 @@
 					"enddate": 		"January 2017",
 					"bullets": [
 						"Developed and reviewed frontend software in JavaScript (Angular, jQuery), HTML, CSS for 3 portals",
-						"Participated in and led teams in agile story estimations and tasking for new features.",
-						"Provided unit testing for new and refactored code using Mocha and Karma",
+						"Participated in and led teams in agile story estimations and tasking for new features",
+						"Developed a new feature for smartly displaying critical user information during an asynchronous system action. Guided the project from a hack-a-thon proof-of-concept, through development, ultimately becoming a widely acclaimed feature of the release which aided sales and client services.",
+						"Worked on a new interface to provide server health information to system operators at a concise, summary level",
 						"Discovered, documented, and fixed bugs and security vulnerabilities",
-						"Developed a new feature for smartly displaying critical user information during an asynchronous system action. Guided the project from a hack-a-thon proof-of-concept, through development, ultimately becoming a widely acclaimed feature of the release which aided sales and client services."
+						"Provided unit testing for new and refactored code using Mocha and Karma, which increased code quality"
 					]					
 				}
 			]
@@ -44,19 +47,19 @@
 			"company" :		"NYS Office of Information Technology Services (formerly OFT)",
 			"description" :	"Rapid Application Development, contract position via Unisys/Pinnacle1/InfoPeople",
 			"url" :			"http://cio.ny.gov/",
-			"title" :		"Senior Web Application Developer",
+			"title" :		"Senior Web Application (Full-stack) Developer",
 			"startdate" :	"August 2011",
 			"enddate" :		"June 2015",
 			"bullets" :	[
-				"Developed New York State's online grant system: Consolidated Funding Application (CFA), a 'Best of New York' 2012 award winner"
+				"Developed New York State's online grant system: Consolidated Funding Application (CFA), a 'Best of New York' 2012 award winner, and one of the Governor's top initiatives"
+				,"Created a new backend MVC framework to allow for much faster development and more moular code (based on ideas from CodeIgniter/PHP)"
 				,"Developed NYS News / MediaContact, an application for public information distribution"
-				,"Worked on all aspects of the development lifecycle..."
-				,"...early needs-analysis, database design (MS SQL Server), and planning"
-				,"...server-side development with ColdFusion and PHP"
-				,"...UI/UX design, client-side/front-end development (jQuery, javascript, CSS), and graphical design"
-				,"...security, optimization, public APIs, and on-demand reporting"
+				,"Worked on all aspects of the development lifecycle, on all areas of the application..."
+				,"Provided early needs-analysis, database design (MS SQL Server), and planning"
+				,"Developed server-side code in ColdFusion"
+				,"Designed UI and UX, developed client-side/front-end (jQuery, javascript, CSS), and did graphic design work"
+				,"Provided in-depth security solutions, optimization, designed public APIs, and on-demand reporting"
 				,"Agile Project Management: tracked tasks and changing deliverables in a fast-paced environment"
-				,"Created a new MVC framework to allow for faster development and more moular code (based on CodeIgniter/PHP)"
 				,"Experienced with Open Data / Open Government and FOI concerns"
 				,"Utilized the most up-to-date web technologies - such as HTML5, CSS3, AJAX with JSON - while maintaining backwards compatibility and accessibility"
 				,"Managed self-directed work and many simultaneous projects"
@@ -239,61 +242,7 @@
 			"note":			"Distinguished Scientist Scholar"
 		}
 	],
-	
-	
-	"references" : [
-		{
-			"name": 		"David Callahan",
-			"title":		"Director of R&D (EUX)",
-			"company":		"Apprenda",
-			"connection":	"Worked with during 2015-2017",
-			"email":		["david.callahan@battleaxis.com"],
-			"phone":		["650-430-4152"]
-		},{
-			"name": 		"Ed Donohue",
-			"title":		"Director of Mobile and Cloud Development Services",
-			"company":		"NYS Enterprise Business Solutions",
-			"connection":	"Worked with during 2011-2015",
-			"email":		["ed.donohue@its.ny.gov"],
-			"phone":		["518 459-0171"]
-		},{
-			"name":			"Alexandros Vasilakos",
-			"title":		"Former Creative Director",
-			"company":		"Burst Marketing",
-			"connection":	"Worked with during 2011",
-			"email":		["avasilakos@gmail.com"],
-			"phone":		["518-465-0659"]
-		},{
-			"name":			"Melanie Pender",
-			"title":		"Former Consultant",
-			"company":		"The Amherst Group Limited",
-			"connection":	"Worked with from 2003 - 2011",
-			"email":		["melaniepender@gmail.com"],
-			"phone":		["919-338-8011"]
-		},{
-			"name":			"Thuong Pham",
-			"title":		"Former Senior Consultant",
-			"company":		"The Amherst Group Limited",
-			"connection":	"Worked with from 2003 - 2009",
-			"email":		["tpham@tqpindustries.com"],
-			"phone":		["612-327-7426"]
-		},{
-			"name":			"Thomas Clinton",
-			"title":		"Former Director",
-			"company":		"The Amherst Group Limited",
-			"connection":	"Worked with from 2005 - 2009",
-			"email":		["tfclinton@gmail.com"],
-			"phone":		["805-743-3636"]
-		},{
-			"name":			"Anne Dowling",
-			"title":		"Deputy Director",
-			"company":		"The Institute for Traffic Safety Management & Research",
-			"connection":	"Worked with from 2002 - 2003",
-			"email":		["adowling@itsmr.org"],
-			"phone":		["518-453-0291"]
-		}
-	],
 
-	"footnote":	"Portfolio, code samples and additional references are available on request."
+	"footnote":	"References and portfolio are available on request."
 	
 }
