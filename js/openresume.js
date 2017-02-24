@@ -255,6 +255,17 @@ var openResume = (function(){
 						h += '</ul>';
 					}
 					break;
+				case "other":
+					if (typeof rObj.other === 'undefined') {
+						break;
+					}
+					h += '<ul class="other">'
+					for (i = 0; i < rObj.other.length; i++) {
+						h += '<li>' + rObj.other[i] + '</li>';
+					}
+					h += '</ul>';
+
+					break;
 			}
 			return h;
 		}	

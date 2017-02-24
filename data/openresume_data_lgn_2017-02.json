@@ -1,4 +1,3 @@
-
 {
 	"name":		"Luke Nickerson",
 	"email": 	["luke.nickerson@gmail.com"],
@@ -8,8 +7,8 @@
 		{"StackOverflow": "http://stackoverflow.com/story/lukenickerson"},
 		{"LinkedIn": "https://www.linkedin.com/in/lnickerson/"}
 	],
-	"order":	["summary", "experience", "skills", "education"],
-	"headers": 	["Objective", "work experience", "skills", "Education"],
+	"order":	["summary", "experience", "skills", "education", "other"],
+	"headers": 	["Objective", "work experience", "skills", "Education", "Other"],
 	"summary":	"To utilize my 15+ years working with technology to create innovative, efficient, and user-friendly software solutions in a leadership role.",
 	
 	"experience" : [
@@ -24,7 +23,7 @@
 					"enddate": 		"January 2017",
 					"bullets": [
 						"Recruited into the Product team to provide UX leadership and acted as a user-advocate throughout design and development",
-						"Drafted and prioritized new UX features as agile stories and epics in JIRA. Ensured they were optimized for customer, market, and sales needs, and followed industry best practices for UX.",
+						"Drafted and prioritized new features as agile stories and epics in JIRA. Ensured they were optimized for customer, market, and sales needs, and followed industry best practices for UX.",
 						"Researched best practices for user research and interface design and promoted their adoption through new features",
 						"Mentored UX Designer, collaborating on designing navigation for Kubernetes Dashboard, an open-source project",
 						"Created a rebranding strategy to provide incremental improvements to the design of customer-facing portals",
@@ -36,8 +35,8 @@
 					"startdate": 	"June 2015",
 					"enddate": 		"January 2017",
 					"bullets": [
+						"Participated in and led agile/scrum teams in story estimations, tasking for new features, daily standups, and retrospectives",
 						"Developed and reviewed frontend software in JavaScript (Angular, jQuery), HTML, CSS for 3 portals",
-						"Participated in and led teams in agile story estimations and tasking for new features",
 						"Developed a new feature for smartly displaying critical user information during an asynchronous system action. Guided the project from a hack-a-thon proof-of-concept, through development, ultimately becoming a widely acclaimed feature of the release which aided sales and client services.",
 						"Worked on a new interface to provide server health information to system operators at a concise, summary level",
 						"Discovered, documented, and fixed bugs and security vulnerabilities",
@@ -230,7 +229,6 @@
 		}
 	],
 	
-	
 	"education" : [
 		{
 			"school":		"Bard College",
@@ -242,6 +240,13 @@
 			"minor":		"Unofficial minors in Physics and Computer Science",
 			"note":			"Distinguished Scientist Scholar"
 		}
+	],
+
+	"other": [
+		"Willing to travel (up to 50%)",
+		"Willing to work remotely or in an office",
+		"Able to work with minimal supervision",
+		"U.S. citizen"
 	],
 
 	"footnote":	"References and portfolio are available on request."
