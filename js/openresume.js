@@ -1,16 +1,20 @@
 /*
  *	OPEN RESUME
- *	Copyright 2010-2017 Luke Nickerson
+ *	Copyright 2010-2018 Luke Nickerson
  *
  * TO DO: 
  * - convert all & characters to & codes
  * - make style responsive
+ * - update to ES6
+ * - remove jQuery dependency
  *
  */
 
 var openResume = (function(){
 
-	if (typeof $ === "undefined") { console.error("ERROR: jQuery ($) is required but is not found"); }
+	if (typeof $ === "undefined") {
+		console.error("ERROR: jQuery ($) is required but is not found");
+	}
 
 	function getUrlVars() {
 		var map = {};
@@ -28,8 +32,7 @@ var openResume = (function(){
 	});
 
 
-	function OpenResumeClass (cvId) 
-	{
+	function OpenResumeClass (cvId) {
 		this.cvId = cvId;
 		this.$destination = $('#resume').addClass("resume");
 		this.$footer = $('body > footer');
@@ -38,8 +41,16 @@ var openResume = (function(){
 		this.loadingHtml = '<img src="images/ajax-loader.gif" />Loading...';
 		this.showContactInfo = true;
 		
-		this.setupDocument = function ()
-		{
+		this.setupDocument = setupDocument
+		this.load = load;
+		this.writeResume = writeResume;
+		this.getExperienceHTML = getExperienceHTML;
+		this.getRoleHTML = getRoleHTML;
+		this.getSectionHtml = getSectionHtml;
+		this.getBarHtml = getBarHtml;
+
+
+		function setupDocument() {
 			if (this.$destination.length == 0) 	this.$destination = $('<div id="resume" class="resume"></div>').appendTo('body');
 			if (this.$footer.length == 0) 		this.$footer = $('<footer></footer>').appendTo('body');
 			var $dest = this.$destination;
@@ -47,16 +58,12 @@ var openResume = (function(){
 			$dest.html(this.loadingHtml);
 			$dest.ajaxError( function(e, xhr, ajaxOptions, thrownError) {
 				console.error("Ajax Error");
-				console.log(e);
-				console.log(xhr);
-				console.log(ajaxOptions);
-				console.log(thrownError);
+				console.log(e, xhr, ajaxOptions, thrownError);
 				$dest.slideDown("fast").html("Ajax Error<br>" + ajaxOptions.url + "<br>" + xhr.status + "<br>" + xhr.responseText);
 			});		
 		}
 		
-		this.load = function () 
-		{
+		function load() {
 			var urlVars = getUrlVars();
 			if (urlVars["cv"]) {
 				this.cvId = urlVars["cv"];
@@ -79,7 +86,7 @@ var openResume = (function(){
 			}
 		}
 
-		this.writeResume = function (resume, jsonURL) {
+		function writeResume(resume, jsonURL) {
 			var o = this;
 			var i, h = "";
 			//var resume = this.resumeData;
@@ -142,9 +149,9 @@ var openResume = (function(){
 				o.$destination.html(h).fadeInSlideDown(1750);
 				o.$footer.fadeInSlideDown(1750);
 			});
-		};
+		}
 
-		this.getExperienceHTML = function (xp) {
+		function getExperienceHTML(xp) {
 			var h = "";
 			h += (
 				'<h3>' + xp.company + '</h3>'
@@ -162,9 +169,9 @@ var openResume = (function(){
 
 			h += '</ul>';
 			return h;
-		};
-
-		this.getRoleHTML = function (role) {
+		}
+		
+		function getRoleHTML(role) {
 			var h = '<li>';
 			if (typeof role.title === 'string') {
 				h += '<div class="title">' + role.title + '</div>';
@@ -181,10 +188,9 @@ var openResume = (function(){
 			}
 			h += '</li>';
 			return h;
-		};
-
-		this.getSectionHtml = function (sectionName, rObj) 
-		{
+		}
+		
+		function getSectionHtml(sectionName, rObj) {
 			console.log('Getting section html for ', sectionName);
 			var h = "";
 			switch (sectionName) {
@@ -268,17 +274,15 @@ var openResume = (function(){
 					break;
 			}
 			return h;
-		}	
-		
-		this.getBarHtml = function (val, maxWidth) 	// val = 0-10, maxWidth = width in pixels
-		{
+		}
+
+		function getBarHtml(val, maxWidth) { 	// val = 0-10, maxWidth = width in pixels
 			var b = '<div class="barout" style="width: '+ maxWidth + 'px;">';
 			b += '<div class="barin" style="width: ' + (val/10)*maxWidth + 'px;">' + val + '</div>';
 			b += '</div>';
 			return b;
 		}
 
-		
 		//========= Construction
 		this.setupDocument();
 		//this.load();
@@ -291,7 +295,7 @@ var openResume = (function(){
 			this.resume = new OpenResumeClass(n);
 			this.resume.load();
 		}
-	}
+	};
 
 })();
 
