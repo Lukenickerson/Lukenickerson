@@ -141,7 +141,7 @@ var openResume = (function(){
 			
 			o.$footer.append(
 				'<p class="web">The resume data is also <a href="'+ jsonURL +'">available in JSON format</a>.</p>'
-				+ '<p class="web">Design and Coding &copy; 2010-2017 Luke Nickerson</p>'
+				+ '<p class="web">Design and Coding &copy; 2010-2018 Luke Nickerson</p>'
 				+ '<p class="print">This resume is available online in HTML and JSON formats at '+ window.location.href + '</p>'
 			).fadeOut(100);
 

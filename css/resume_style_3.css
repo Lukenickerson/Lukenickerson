@@ -273,6 +273,7 @@ li {
 	.print { display: block; }
 	body {
 		background: none;
+		font-size: 90%;
 	}
 	#resume {
 		width: 100%;
