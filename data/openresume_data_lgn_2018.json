@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2019-04",
+	"lastUpdated": "06-2018",
 	"name":		"Luke Nickerson",
 	"email": 	["luke.nickerson@gmail.com"],
 	"phone": 	["518-330-8564"],
@@ -14,24 +14,6 @@
 	
 	"experience" : [
 		{
-			"company": "Trans World Entertainment",
-			"description": "Retail and E-Commerce (fye.com)",
-			"url": "https://www.twec.com/",
-			"titles": [
-				{
-					"title": "Senior Software Engineer",
-					"startdate": "August 2018",
-					"enddate": "Current",
-					"bullets": [
-						"Writing node.js and java applications to stream and manipulate data",
-						"Working with Product team to iteratively improve the agile development process",
-						"Creating new features in SalesForce (front/back end js)",
-						"Enabling efficient deployments with GitLab CI/CD"
-					]
-				}
-			]
-		},
-		{
 			"company": 		"Rational Enterprise",
 			"description":	"E-Discovery Software-as-a-Service",
 			"url": 			"http://www.rationalenterprise.com/",
@@ -39,17 +21,16 @@
 				{
 					"title": "Senior Software Engineer",
 					"startdate": "March 2017",
-					"enddate": "August 2018",
+					"enddate": "Current",
 					"bullets": [
-						"Created new features for a new SaaS application in JavaScript/AngularJS and Java/Spring",
-						"Designed innovative user interfaces: dashboard, document viewer, etc.",
-						"Reviewed code and mentored junior engineers",
-						"Championed clean code style, componentization, standardization, and unit testing"
+						"Creating new features for a new SaaS application in JavaScript/AngularJS and Java/Spring",
+						"Designing new user interfaces",
+						"Reviewing code and mentoring junior engineers",
+						"Championing clean code style, componentization, standardization, and unit testing"
 					]
 				}
 			]
-		},
-		{
+		},{
 			"company": 		"Apprenda, Inc.",
 			"description": 	"Platform-as-a-Service Software Start-up",
 			"url": 			"http://apprenda.com/",
@@ -81,8 +62,7 @@
 					]					
 				}
 			]
-		},
-		{
+		},{
 			"company":		"NYS Office of Information Technology Services (formerly OFT)",
 			"description":	"Rapid Application Development, contract position via Unisys/Pinnacle1/InfoPeople",
 			"url":			"http://cio.ny.gov/",
@@ -104,8 +84,7 @@
 				,"Utilized the most up-to-date web technologies - such as HTML5, CSS3, AJAX with JSON - while maintaining backwards compatibility and accessibility"
 				,"Managed self-directed work and many simultaneous projects"
 			]
-		},
-		{
+		},{
 			"company":		"Amherst Group Limited",
 			"description":	"small management consulting firm with global clients",
 			"title":		"Technical Consultant / Lead Web Developer",
@@ -119,8 +98,7 @@
 				"Produced both ad-hoc and automated analytical reports, presentations, and technical documentation (ColdFusion, Crystal Reports, Excel)",
 				"Experienced with working in a virtual environment, in small teams with both local and international members"
 			]
-		},
-		{
+		},{
 			"company":		"Freelance Web Development, Design and Consulting",
 			"description":	"ongoing freelance work",
 			"title":		"Web Developer / Consultant",
@@ -132,8 +110,7 @@
 				,"Developed websites in WordPress and Magento (PHP) for Burst Marketing (IntelliSites.com)"
 				,"Created original web-based games under fast deadlines for Ludum Dare (JavaScript and PHP)"
 			]
-		},
-		{
+		},{
 			"company" :		"The Institute for Traffic Safety Mgmt. & Research",
 			"description" :	"state-funded research group",
 			"url" :			"http://itsmr.org",
@@ -149,33 +126,35 @@
 	],
 	
 	"skills" : [
-		{	"name" :		"Self-direction", 
+
+		{	"name" :		"Multi-tasking", 
 			"category" : 		"general", 
 			"proficiency" : 	10
 		},
-		{	"name" :		"Multi-tasking", 
+		{	"name" :		"Self-direction", 
 			"category" : 		"general", 
 			"proficiency" : 	9.5
 		},
 		{	"name" :		"Communications", 
 			"category" : 		"general", 
-			"proficiency" : 	9
-		},
-		{	"name" :		"Documentation", 
+			"proficiency" : 	8.5
+		},		
+		{	"name" :		"Project Management", 
 			"category" : 		"general", 
-			"proficiency" : 	9
-		},
-		{	"name" :		"User Experience UX/UI", 
+			"proficiency" : 	8
+		},		
+		{	"name" :		"Documentation", 
 			"category" : 		"general", 
 			"proficiency" : 	8
 		},
-		{	"name" :		"Project Management", 
+		{	"name" :		"User Experience UX/UI", 
 			"category" : 		"general", 
-			"proficiency" : 	7.5
+			"proficiency" : 	7
 		},		
+		
 		{	"name" :		"Information Design", 
 			"category" : 		"data", 
-			"proficiency" : 	10
+			"proficiency" : 	9.8
 		},
 		{	"name" :		"Data Analysis", 
 			"category" : 		"data", 
@@ -183,11 +162,11 @@
 		},
 		{	"name" :		"Virtual work", 
 			"category" : 		"collaboration", 
-			"proficiency" : 	9
+			"proficiency" : 	10
 		},		
 		{	"name" :		"Small teams", 
 			"category" : 		"collaboration", 
-			"proficiency" : 	9.5
+			"proficiency" : 	9.3
 		},
 		{	"name" :		"with International teams", 
 			"category" : 		"collaboration", 
@@ -202,79 +181,73 @@
 			"proficiency" : 	7
 		},
 		
-		{	"name" :		"HTML5", 	"proficiency" : 	9.5,
+		{	"name" :		"HTML5", 	"proficiency" : 	9.3,
 			"category" : 		"programming" 
 		},
-		{	"name" :		"CSS3", 	"proficiency" : 	9.5,
+		{	"name" :		"CSS3", 	"proficiency" : 	9.3,
 			"category" : 		"programming" 
 		},
-		{	"name" :		"Javascript/AJAX/jQuery",
-			"proficiency" : 	9.5,
+		{	"name" :		"Javascript/AJAX/jQuery", 	"proficiency" : 	9,
 			"category" : 		"programming" 
 		},
-		{
-			"name": "Java", "proficiency": 5,
-			"category": "programming"
+		{	"name" :		"ColdFusion (6, 8, 9, 10)", 	"proficiency" : 	8.5,
+			"category" : 		"programming" 
 		},
-		{	"name":		"ColdFusion (6, 8, 9, 10)",
-			"proficiency": 	8.5,
-			"category": 		"programming" 
-		},
-		{	"name":		"PHP", 	"proficiency": 	8,
-			"category": 		"programming" 
+		{	"name" :		"PHP", 	"proficiency" : 	8,
+			"category" : 		"programming" 
 		},		
-		{	"name":		"SQL", 	"proficiency": 	8,
-			"category": 		"programming" 
+		{	"name" :		"SQL", 	"proficiency" : 	8,
+			"category" : 		"programming" 
 		},
 
-		{	"name":		"Google Docs"
-			,"proficiency": 	9
-			,"category": 		"software" 
+		{	"name" :		"Google Docs"
+			,"proficiency" : 	9
+			,"category" : 		"software" 
 		},
-		{	"name":		"Google Apps"
-			,"proficiency": 	9
-			,"category": 		"software" 
+		{	"name" :		"Google Apps"
+			,"proficiency" : 	9
+			,"category" : 		"software" 
 		},		
-		{	"name":		"Excel", 
-			"category": 		"software", 
-			"proficiency": 	8
+		{	"name" :		"Excel", 
+			"category" : 		"software", 
+			"proficiency" : 	8
 		},
-		{	"name":		"Access", 	"proficiency": 	8,
-			"category": 		"software" 
+		{	"name" :		"Access", 	"proficiency" : 	8,
+			"category" : 		"software" 
 		},
-		{	"name":		"PowerPoint", 	"proficiency": 	7,
-			"category": 		"software" 
+		{	"name" :		"PowerPoint", 	"proficiency" : 	7,
+			"category" : 		"software" 
 		},
-		{	"name":		"MySQL", 	"proficiency": 	7,
-			"category": 		"software" 
+		{	"name" :		"MySQL", 	"proficiency" : 	7,
+			"category" : 		"software" 
 		},
-		{	"name":		"MS SQL", 	"proficiency": 	7,
-			"category": 		"software" 
+		{	"name" :		"MS SQL", 	"proficiency" : 	7,
+			"category" : 		"software" 
 		},	
-		{	"name":		"Word", 	"proficiency": 	6,
-			"category": 		"software" 
+		{	"name" :		"Word", 	"proficiency" : 	6,
+			"category" : 		"software" 
 		},
-		{	"name":		"Outlook", 	"proficiency": 	6,
-			"category": 		"software" 
+		{	"name" :		"Outlook", 	"proficiency" : 	6,
+			"category" : 		"software" 
 		},
-		{	"name":		"Photoshop", 	"proficiency": 	6,
-			"category": 		"software" 
+		{	"name" :		"Photoshop", 	"proficiency" : 	6,
+			"category" : 		"software" 
 		},
-		{	"name":		"Crystal Reports", 	"proficiency": 	5,
-			"category": 		"software" 
+		{	"name" :		"Crystal Reports", 	"proficiency" : 	5,
+			"category" : 		"software" 
 		},
-		{	"name":		"Oracle (8i)", 	"proficiency": 	5,
-			"category": 		"software" 
+		{	"name" :		"Oracle (8i)", 	"proficiency" : 	5,
+			"category" : 		"software" 
 		},
-		{	"name":		"Dreamweaver", 	"proficiency": 	4,
-			"category": 		"software" 
+		{	"name" :		"Dreamweaver", 	"proficiency" : 	4,
+			"category" : 		"software" 
 		},
-		{	"name":		"Captivate", 	"proficiency": 	4,
-			"category": 		"software" 
+		{	"name" :		"Captivate", 	"proficiency" : 	4,
+			"category" : 		"software" 
 		}
 	],
 	
-	"education": [
+	"education" : [
 		{
 			"school":		"Bard College",
 			"url":			"http://bard.edu/",
@@ -288,7 +261,7 @@
 	],
 
 	"other": [
-		"Willing to travel (up to 20%)",
+		"Willing to travel (up to 50%)",
 		"Willing to work remotely or in an office",
 		"Able to work with minimal supervision",
 		"U.S. citizen"
