@@ -23,10 +23,11 @@
 					"startdate": "August 2018",
 					"enddate": "Current",
 					"bullets": [
-						"Writing node.js and java applications to stream and manipulate data",
+						"Writing node.js and java applications to import, manipulate, and export data",
 						"Working with Product team to iteratively improve the agile development process",
-						"Creating new features in SalesForce (front/back end js)",
-						"Enabling efficient deployments with GitLab CI/CD"
+						"Creating new features in SalesForce Commerce Cloud - front and back end js",
+						"Enabling efficient deployments with GitLab CI/CD",
+						"Documenting and diagramming interconnected systems and processes"
 					]
 				}
 			]
