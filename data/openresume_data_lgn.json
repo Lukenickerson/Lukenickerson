@@ -18,17 +18,18 @@
 			"description": "Toll Management Service",
 			"url": "https://bestpass.com/",
 			"titles": [
-				"title": "Technical Product Manager",
-				"startdate": "June 2019",
-				"enddate": "Current",
-				"bullets": [
-					"Provided user stories to Engineering that capture detailed requirements",
-					"Led customer discovery sessions with key stakeholders",
-					"Developed business cases to justify priorities while maintaining a focus on customer satisfaction",
-					"Managed and developed project plans, ensuring that all critical requirements were understood, rationalized, and documented",
-					"Led presentations of project status and outcomes"
-				]
-				
+				{
+					"title": "Technical Product Manager",
+					"startdate": "June 2019",
+					"enddate": "Current",
+					"bullets": [
+						"Provided user stories to Engineering that capture detailed requirements",
+						"Led customer discovery sessions with key stakeholders",
+						"Developed business cases to justify priorities while maintaining a focus on customer satisfaction",
+						"Managed and developed project plans, ensuring that all critical requirements were understood, rationalized, and documented",
+						"Led presentations of project status and outcomes"
+					]
+				}
 			]
 		},
 		{
