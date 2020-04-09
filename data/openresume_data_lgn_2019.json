@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2020-04",
+	"lastUpdated": "2019-04",
 	"name":		"Luke Nickerson",
 	"email": 	["luke.nickerson@gmail.com"],
 	"phone": 	["518-330-8564"],
@@ -14,24 +14,6 @@
 	
 	"experience" : [
 		{
-			"company": "Bestpass",
-			"description": "Toll Management Service",
-			"url": "https://bestpass.com/",
-			"titles": [
-				"title": "Technical Product Manager",
-				"startdate": "June 2019",
-				"enddate": "Current",
-				"bullets": [
-					"Provided user stories to Engineering that capture detailed requirements",
-					"Led customer discovery sessions with key stakeholders",
-					"Developed business cases to justify priorities while maintaining a focus on customer satisfaction",
-					"Managed and developed project plans, ensuring that all critical requirements were understood, rationalized, and documented",
-					"Led presentations of project status and outcomes"
-				]
-				
-			]
-		},
-		{
 			"company": "Trans World Entertainment",
 			"description": "Retail and E-Commerce (fye.com)",
 			"url": "https://www.twec.com/",
@@ -39,13 +21,13 @@
 				{
 					"title": "Senior Software Engineer",
 					"startdate": "August 2018",
-					"enddate": "May 2019",
+					"enddate": "Current",
 					"bullets": [
-						"Wrote node.js and java applications to import, manipulate, and export data",
-						"Worked with Product team to iteratively improve the agile development process",
-						"Created new features in SalesForce Commerce Cloud - front and back end js",
-						"Enabled efficient deployments with GitLab CI/CD",
-						"Documented and diagrammed interconnected systems and processes"
+						"Writing node.js and java applications to import, manipulate, and export data",
+						"Working with Product team to iteratively improve the agile development process",
+						"Creating new features in SalesForce Commerce Cloud - front and back end js",
+						"Enabling efficient deployments with GitLab CI/CD",
+						"Documenting and diagramming interconnected systems and processes"
 					]
 				}
 			]
@@ -102,19 +84,6 @@
 			]
 		},
 		{
-			"company":		"Freelance Web Development, Design and Consulting",
-			"description":	"ongoing freelance work",
-			"title":		"Web Developer / Consultant",
-			"startdate":	"1999",
-			"enddate":		"Present",
-			"bullets":	[
-				"Created original web-based games under fast deadlines for games jams such as Ludum Dare (JavaScript, PHP)",
-				"Developed websites in PHP (CodeIgniter) and ColdFusion for TroyWeb",
-				"Developed websites in WordPress and Magento (PHP) for Burst Marketing (IntelliSites.com)"
-				"Designed and developed several original websites in PHP and ColdFusion",
-			]
-		},
-		{
 			"company":		"NYS Office of Information Technology Services (formerly OFT)",
 			"description":	"Rapid Application Development, contract position via Unisys/Pinnacle1/InfoPeople",
 			"url":			"http://cio.ny.gov/",
@@ -150,6 +119,19 @@
 				"Maintained, created, and upgraded several databases in both Oracle and Access",
 				"Produced both ad-hoc and automated analytical reports, presentations, and technical documentation (ColdFusion, Crystal Reports, Excel)",
 				"Experienced with working in a virtual environment, in small teams with both local and international members"
+			]
+		},
+		{
+			"company":		"Freelance Web Development, Design and Consulting",
+			"description":	"ongoing freelance work",
+			"title":		"Web Developer / Consultant",
+			"startdate":	"1999",
+			"enddate":		"Present",
+			"bullets":	[
+				"Designed and developed several original websites in PHP and ColdFusion"
+				,"Developed websites in PHP (CodeIgniter) and ColdFusion for TroyWeb"
+				,"Developed websites in WordPress and Magento (PHP) for Burst Marketing (IntelliSites.com)"
+				,"Created original web-based games under fast deadlines for Ludum Dare (JavaScript and PHP)"
 			]
 		},
 		{
@@ -307,6 +289,7 @@
 	],
 
 	"other": [
+		"Willing to travel (up to 20%)",
 		"Willing to work remotely or in an office",
 		"Able to work with minimal supervision",
 		"U.S. citizen"
