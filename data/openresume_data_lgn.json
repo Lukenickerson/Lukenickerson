@@ -21,7 +21,7 @@
 				{
 					"title": "Technical Product Manager",
 					"startdate": "June 2019",
-					"enddate": "Current",
+					"enddate": "April 2020",
 					"bullets": [
 						"Provided user stories to Engineering that capture detailed requirements",
 						"Led customer discovery sessions with key stakeholders",
@@ -43,9 +43,9 @@
 					"enddate": "May 2019",
 					"bullets": [
 						"Wrote node.js and java applications to import, manipulate, and export data",
-						"Worked with Product team to iteratively improve the agile development process",
+						"Enabled efficient deployments with GitLab CI/CD, using AWS and Docker",
 						"Created new features in SalesForce Commerce Cloud - front and back end js",
-						"Enabled efficient deployments with GitLab CI/CD",
+						"Worked with Product team to iteratively improve the agile development process",
 						"Documented and diagrammed interconnected systems and processes"
 					]
 				}
@@ -62,7 +62,7 @@
 					"enddate": "August 2018",
 					"bullets": [
 						"Created new features for a new SaaS application in JavaScript/AngularJS and Java/Spring",
-						"Designed innovative user interfaces: dashboard, document viewer, etc.",
+						"Designed innovative user interfaces, including a dashboard, document viewer, and redaction tool",
 						"Reviewed code and mentored junior engineers",
 						"Championed clean code style, componentization, standardization, and unit testing"
 					]
