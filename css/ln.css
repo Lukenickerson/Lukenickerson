@@ -1,10 +1,33 @@
 
-body { 
+html {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
 	text-align: center; 
 	font-family: 'Roboto', Verdana, sans-serif;
 	font-size: 18px;
 	background: #ddddde;
+	padding: 0; margin: 0;
+	min-height: 100%;
 }
+
+a {
+	color: #38838B;
+	text-decoration: none;
+}
+	a:hover {
+		text-decoration: underline;
+	}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-grow: 1;
+}
+
 h1 {
 	font-family: 'Bree Serif', Georgia, serif;
 	width: 100%;
@@ -16,14 +39,6 @@ h1 {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;	
 }
-
-a {
-	color: #38838B;
-	text-decoration: none;
-}
-	a:hover {
-		text-decoration: underline;
-	}
 
 .gravatar { 
 	width: 200px;
@@ -37,16 +52,17 @@ a {
 }
 
 .me {
-	width: 70%;
-	max-width: 100em;
+	width: 80%;
+	max-width: 70em;
 	margin: 1em auto;
-	
+	display: flex;
 }
 .me:after { /* clearfix */
 	content: ""; display: table; clear: both;
 }
 
 .col {
+	flex-grow: 1;
 	box-sizing: border-box;
 	width: 46%;
 	min-width: 16em;
@@ -68,13 +84,18 @@ a {
 		margin: 1em 0;
 	}
 	.col li {
+		display: block;
 		margin: 0;
 		text-indent: 0;
+		position: relative;
+    	padding-left: 1em;
 	}
 	.col li:before {
 		content: "• ";
 		color: #aaa;
-		font-size: 1.5em;
+		font-size: 1.8em;
+		position: absolute;
+		left: 0; top: 0;
 	}
 	.col li > a {
 		display: inline-block;
@@ -84,22 +105,19 @@ a {
 
 
 
-@media only screen and (max-width : 60em) {		
+@media only screen and (max-width: 60em) {		
 	.me {
 		width: 90%;
 	}
-
 }
 
-@media only screen and (max-width : 45em) {	
+@media only screen and (max-width: 45em) {	
+	.me {
+		display: block;
+		width: 98%;
+	}
 	.col {
 		width: auto;
-	}	
-}
-
-@media only screen and (max-width : 30em) {	
-	.me {
-		width: 98%;
-	}	
+	}
 }
 
